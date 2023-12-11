@@ -1,0 +1,2 @@
+1 графика
+https://pythonist.ru/vvedenie-v-opengl-i-pyopengl-chast-i-sozdanie-vrashhayushhegosya-kuba/

@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-16"?>
+<PermissionVariables>
+
+  <!--
+    #########################################################################
+    Условия формирования блокировок и защит
+    #########################################################################
+  --> 
+    
+<Variable name="bBlocking1">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking2">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking3">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking4">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking5">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking6">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking7">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking8">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking9">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking10">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking11">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking12">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking13">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking14">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking15">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking16">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking17">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking18">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking19">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking20">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking21">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking22">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking23">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking24">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking25">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking26">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking27">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking28">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking29">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking30">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking31">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking32">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking33">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking34">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking35">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking36">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking37">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking38">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking39">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking40">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking41">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking42">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking43">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking44">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking45">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking46">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking47">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking48">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking49">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking50">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking51">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking52">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking53">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking54">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking55">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking56">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking57">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking58">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking59">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking60">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking61">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking62">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking63">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking64">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking65">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking66">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking67">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking68">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking69">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking70">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking71">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking72">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking73">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking74">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking75">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking76">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking77">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking78">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking79">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking80">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking81">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking82">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking83">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking84">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking85">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking86">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking87">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking88">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking89">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking90">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking91">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking92">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking93">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking94">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking95">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking96">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking97">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking98">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking99">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking100">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking101">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking102">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking103">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking104">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking105">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking106">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking107">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking108">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking109">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking110">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking111">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking112">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking113">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking114">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking115">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking116">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking117">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking118">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking119">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking120">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking121">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking122">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking123">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking124">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking125">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking126">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking127">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking128">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking129">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking130">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking131">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking132">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking133">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking134">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking135">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking136">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking137">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking138">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking139">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking140">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking141">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking142">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking143">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking144">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking145">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking146">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking147">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking148">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking149">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking150">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking151">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking152">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking153">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking154">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking155">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking156">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking157">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking158">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking159">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking160">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking161">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking162">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking163">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking164">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking165">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking166">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking167">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking168">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking169">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking170">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking171">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking172">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking173">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking174">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking175">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking176">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking177">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking178">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking179">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking180">
+Тело блокировки
+</Variable>
+
+<Variable name="bBlocking181">
+Тело блокировки
+</Variable>
+
+
+<Variable category="Blocking" id="1"> bBlocking1 </Variable>
+<Variable category="Blocking" id="2"> bBlocking2 </Variable>
+<Variable category="Blocking" id="3"> bBlocking3 </Variable>
+<Variable category="Blocking" id="4"> bBlocking4 </Variable>
+<Variable category="Blocking" id="5"> bBlocking5 </Variable>
+<Variable category="Blocking" id="6"> bBlocking6 </Variable>
+<Variable category="Blocking" id="7"> bBlocking7 </Variable>
+<Variable category="Blocking" id="8"> bBlocking8 </Variable>
+<Variable category="Blocking" id="9"> bBlocking9 </Variable>
+<Variable category="Blocking" id="10"> bBlocking10 </Variable>
+<Variable category="Blocking" id="11"> bBlocking11 </Variable>
+<Variable category="Blocking" id="12"> bBlocking12 </Variable>
+<Variable category="Blocking" id="13"> bBlocking13 </Variable>
+<Variable category="Blocking" id="14"> bBlocking14 </Variable>
+<Variable category="Blocking" id="15"> bBlocking15 </Variable>
+<Variable category="Blocking" id="16"> bBlocking16 </Variable>
+<Variable category="Blocking" id="17"> bBlocking17 </Variable>
+<Variable category="Blocking" id="18"> bBlocking18 </Variable>
+<Variable category="Blocking" id="19"> bBlocking19 </Variable>
+<Variable category="Blocking" id="20"> bBlocking20 </Variable>
+<Variable category="Blocking" id="21"> bBlocking21 </Variable>
+<Variable category="Blocking" id="22"> bBlocking22 </Variable>
+<Variable category="Blocking" id="23"> bBlocking23 </Variable>
+<Variable category="Blocking" id="24"> bBlocking24 </Variable>
+<Variable category="Blocking" id="25"> bBlocking25 </Variable>
+<Variable category="Blocking" id="26"> bBlocking26 </Variable>
+<Variable category="Blocking" id="27"> bBlocking27 </Variable>
+<Variable category="Blocking" id="28"> bBlocking28 </Variable>
+<Variable category="Blocking" id="29"> bBlocking29 </Variable>
+<Variable category="Blocking" id="30"> bBlocking30 </Variable>
+<Variable category="Blocking" id="31"> bBlocking31 </Variable>
+<Variable category="Blocking" id="32"> bBlocking32 </Variable>
+<Variable category="Blocking" id="33"> bBlocking33 </Variable>
+<Variable category="Blocking" id="34"> bBlocking34 </Variable>
+<Variable category="Blocking" id="35"> bBlocking35 </Variable>
+<Variable category="Blocking" id="36"> bBlocking36 </Variable>
+<Variable category="Blocking" id="37"> bBlocking37 </Variable>
+<Variable category="Blocking" id="38"> bBlocking38 </Variable>
+<Variable category="Blocking" id="39"> bBlocking39 </Variable>
+<Variable category="Blocking" id="40"> bBlocking40 </Variable>
+<Variable category="Blocking" id="41"> bBlocking41 </Variable>
+<Variable category="Blocking" id="42"> bBlocking42 </Variable>
+<Variable category="Blocking" id="43"> bBlocking43 </Variable>
+<Variable category="Blocking" id="44"> bBlocking44 </Variable>
+<Variable category="Blocking" id="45"> bBlocking45 </Variable>
+<Variable category="Blocking" id="46"> bBlocking46 </Variable>
+<Variable category="Blocking" id="47"> bBlocking47 </Variable>
+<Variable category="Blocking" id="48"> bBlocking48 </Variable>
+<Variable category="Blocking" id="49"> bBlocking49 </Variable>
+<Variable category="Blocking" id="50"> bBlocking50 </Variable>
+<Variable category="Blocking" id="51"> bBlocking51 </Variable>
+<Variable category="Blocking" id="52"> bBlocking52 </Variable>
+<Variable category="Blocking" id="53"> bBlocking53 </Variable>
+<Variable category="Blocking" id="54"> bBlocking54 </Variable>
+<Variable category="Blocking" id="55"> bBlocking55 </Variable>
+<Variable category="Blocking" id="56"> bBlocking56 </Variable>
+<Variable category="Blocking" id="57"> bBlocking57 </Variable>
+<Variable category="Blocking" id="58"> bBlocking58 </Variable>
+<Variable category="Blocking" id="59"> bBlocking59 </Variable>
+<Variable category="Blocking" id="60"> bBlocking60 </Variable>
+<Variable category="Blocking" id="61"> bBlocking61 </Variable>
+<Variable category="Blocking" id="62"> bBlocking62 </Variable>
+<Variable category="Blocking" id="63"> bBlocking63 </Variable>
+<Variable category="Blocking" id="64"> bBlocking64 </Variable>
+<Variable category="Blocking" id="65"> bBlocking65 </Variable>
+<Variable category="Blocking" id="66"> bBlocking66 </Variable>
+<Variable category="Blocking" id="67"> bBlocking67 </Variable>
+<Variable category="Blocking" id="68"> bBlocking68 </Variable>
+<Variable category="Blocking" id="69"> bBlocking69 </Variable>
+<Variable category="Blocking" id="70"> bBlocking70 </Variable>
+<Variable category="Blocking" id="71"> bBlocking71 </Variable>
+<Variable category="Blocking" id="72"> bBlocking72 </Variable>
+<Variable category="Blocking" id="73"> bBlocking73 </Variable>
+<Variable category="Blocking" id="74"> bBlocking74 </Variable>
+<Variable category="Blocking" id="75"> bBlocking75 </Variable>
+<Variable category="Blocking" id="76"> bBlocking76 </Variable>
+<Variable category="Blocking" id="77"> bBlocking77 </Variable>
+<Variable category="Blocking" id="78"> bBlocking78 </Variable>
+<Variable category="Blocking" id="79"> bBlocking79 </Variable>
+<Variable category="Blocking" id="80"> bBlocking80 </Variable>
+<Variable category="Blocking" id="81"> bBlocking81 </Variable>
+<Variable category="Blocking" id="82"> bBlocking82 </Variable>
+<Variable category="Blocking" id="83"> bBlocking83 </Variable>
+<Variable category="Blocking" id="84"> bBlocking84 </Variable>
+<Variable category="Blocking" id="85"> bBlocking85 </Variable>
+<Variable category="Blocking" id="86"> bBlocking86 </Variable>
+<Variable category="Blocking" id="87"> bBlocking87 </Variable>
+<Variable category="Blocking" id="88"> bBlocking88 </Variable>
+<Variable category="Blocking" id="89"> bBlocking89 </Variable>
+<Variable category="Blocking" id="90"> bBlocking90 </Variable>
+<Variable category="Blocking" id="91"> bBlocking91 </Variable>
+<Variable category="Blocking" id="92"> bBlocking92 </Variable>
+<Variable category="Blocking" id="93"> bBlocking93 </Variable>
+<Variable category="Blocking" id="94"> bBlocking94 </Variable>
+<Variable category="Blocking" id="95"> bBlocking95 </Variable>
+<Variable category="Blocking" id="96"> bBlocking96 </Variable>
+<Variable category="Blocking" id="97"> bBlocking97 </Variable>
+<Variable category="Blocking" id="98"> bBlocking98 </Variable>
+<Variable category="Blocking" id="99"> bBlocking99 </Variable>
+<Variable category="Blocking" id="100"> bBlocking100 </Variable>
+<Variable category="Blocking" id="101"> bBlocking101 </Variable>
+<Variable category="Blocking" id="102"> bBlocking102 </Variable>
+<Variable category="Blocking" id="103"> bBlocking103 </Variable>
+<Variable category="Blocking" id="104"> bBlocking104 </Variable>
+<Variable category="Blocking" id="105"> bBlocking105 </Variable>
+<Variable category="Blocking" id="106"> bBlocking106 </Variable>
+<Variable category="Blocking" id="107"> bBlocking107 </Variable>
+<Variable category="Blocking" id="108"> bBlocking108 </Variable>
+<Variable category="Blocking" id="109"> bBlocking109 </Variable>
+<Variable category="Blocking" id="110"> bBlocking110 </Variable>
+<Variable category="Blocking" id="111"> bBlocking111 </Variable>
+<Variable category="Blocking" id="112"> bBlocking112 </Variable>
+<Variable category="Blocking" id="113"> bBlocking113 </Variable>
+<Variable category="Blocking" id="114"> bBlocking114 </Variable>
+<Variable category="Blocking" id="115"> bBlocking115 </Variable>
+<Variable category="Blocking" id="116"> bBlocking116 </Variable>
+<Variable category="Blocking" id="117"> bBlocking117 </Variable>
+<Variable category="Blocking" id="118"> bBlocking118 </Variable>
+<Variable category="Blocking" id="119"> bBlocking119 </Variable>
+<Variable category="Blocking" id="120"> bBlocking120 </Variable>
+<Variable category="Blocking" id="121"> bBlocking121 </Variable>
+<Variable category="Blocking" id="122"> bBlocking122 </Variable>
+<Variable category="Blocking" id="123"> bBlocking123 </Variable>
+<Variable category="Blocking" id="124"> bBlocking124 </Variable>
+<Variable category="Blocking" id="125"> bBlocking125 </Variable>
+<Variable category="Blocking" id="126"> bBlocking126 </Variable>
+<Variable category="Blocking" id="127"> bBlocking127 </Variable>
+<Variable category="Blocking" id="128"> bBlocking128 </Variable>
+<Variable category="Blocking" id="129"> bBlocking129 </Variable>
+<Variable category="Blocking" id="130"> bBlocking130 </Variable>
+<Variable category="Blocking" id="131"> bBlocking131 </Variable>
+<Variable category="Blocking" id="132"> bBlocking132 </Variable>
+<Variable category="Blocking" id="133"> bBlocking133 </Variable>
+<Variable category="Blocking" id="134"> bBlocking134 </Variable>
+<Variable category="Blocking" id="135"> bBlocking135 </Variable>
+<Variable category="Blocking" id="136"> bBlocking136 </Variable>
+<Variable category="Blocking" id="137"> bBlocking137 </Variable>
+<Variable category="Blocking" id="138"> bBlocking138 </Variable>
+<Variable category="Blocking" id="139"> bBlocking139 </Variable>
+<Variable category="Blocking" id="140"> bBlocking140 </Variable>
+<Variable category="Blocking" id="141"> bBlocking141 </Variable>
+<Variable category="Blocking" id="142"> bBlocking142 </Variable>
+<Variable category="Blocking" id="143"> bBlocking143 </Variable>
+<Variable category="Blocking" id="144"> bBlocking144 </Variable>
+<Variable category="Blocking" id="145"> bBlocking145 </Variable>
+<Variable category="Blocking" id="146"> bBlocking146 </Variable>
+<Variable category="Blocking" id="147"> bBlocking147 </Variable>
+<Variable category="Blocking" id="148"> bBlocking148 </Variable>
+<Variable category="Blocking" id="149"> bBlocking149 </Variable>
+<Variable category="Blocking" id="150"> bBlocking150 </Variable>
+<Variable category="Blocking" id="151"> bBlocking151 </Variable>
+<Variable category="Blocking" id="152"> bBlocking152 </Variable>
+<Variable category="Blocking" id="153"> bBlocking153 </Variable>
+<Variable category="Blocking" id="154"> bBlocking154 </Variable>
+<Variable category="Blocking" id="155"> bBlocking155 </Variable>
+<Variable category="Blocking" id="156"> bBlocking156 </Variable>
+<Variable category="Blocking" id="157"> bBlocking157 </Variable>
+<Variable category="Blocking" id="158"> bBlocking158 </Variable>
+<Variable category="Blocking" id="159"> bBlocking159 </Variable>
+<Variable category="Blocking" id="160"> bBlocking160 </Variable>
+<Variable category="Blocking" id="161"> bBlocking161 </Variable>
+<Variable category="Blocking" id="162"> bBlocking162 </Variable>
+<Variable category="Blocking" id="163"> bBlocking163 </Variable>
+<Variable category="Blocking" id="164"> bBlocking164 </Variable>
+<Variable category="Blocking" id="165"> bBlocking165 </Variable>
+<Variable category="Blocking" id="166"> bBlocking166 </Variable>
+<Variable category="Blocking" id="167"> bBlocking167 </Variable>
+<Variable category="Blocking" id="168"> bBlocking168 </Variable>
+<Variable category="Blocking" id="169"> bBlocking169 </Variable>
+<Variable category="Blocking" id="170"> bBlocking170 </Variable>
+<Variable category="Blocking" id="171"> bBlocking171 </Variable>
+<Variable category="Blocking" id="172"> bBlocking172 </Variable>
+<Variable category="Blocking" id="173"> bBlocking173 </Variable>
+<Variable category="Blocking" id="174"> bBlocking174 </Variable>
+<Variable category="Blocking" id="175"> bBlocking175 </Variable>
+<Variable category="Blocking" id="176"> bBlocking176 </Variable>
+<Variable category="Blocking" id="177"> bBlocking177 </Variable>
+<Variable category="Blocking" id="178"> bBlocking178 </Variable>
+<Variable category="Blocking" id="179"> bBlocking179 </Variable>
+<Variable category="Blocking" id="180"> bBlocking180 </Variable>
+<Variable category="Blocking" id="181"> bBlocking181 </Variable>
+
+< / PermissionVariables >

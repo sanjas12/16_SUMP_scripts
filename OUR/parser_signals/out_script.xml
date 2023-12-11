@@ -1,0 +1,1516 @@
+			<group readFunctionCode="3" hostId="0">
+				<signal address="32000" icsId="0" name="Код САУ ДГУ (номер ячейки)" type="int32" />
+				<signal address="32002" icsId="1" name="Номер модуля центрального процессора CPU730 в системе" type="int32" />
+				<signal address="32004" icsId="2" name="Признак основного/резервного ЦП (master=1/slave=0)" type="int32" />
+				<signal address="32006" icsId="3" name="Время – Год" type="int32" />
+				<signal address="32008" icsId="4" name="Время - Месяц" type="int32" />
+				<signal address="32010" icsId="5" name="Время – День" type="int32" />
+				<signal address="32012" icsId="6" name="Время – Часы" type="int32" />
+				<signal address="32014" icsId="7" name="Время - Минуты" type="int32" />
+				<signal address="32016" icsId="8" name="Время - Секунды" type="int32" />
+				<signal address="32018" icsId="9" name="резерв" type="int32" />
+				<signal address="32020" icsId="10" name="резерв" type="int32" />
+				<signal address="32160" icsId="11" name="Дизель-генератор. Время общей наработки работы ДГ.Часы " type="int32" />
+				<signal address="32162" icsId="12" name="Дизель-генератор. Время общей наработки работы ДГ.Минуты " type="int32" />
+				<signal address="32164" icsId="13" name="Дизель-генератор. Время общей наработки работы ДГ.количество пусков (включений) " type="int32" />
+				<signal address="32166" icsId="14" name="Дизель-генератор. Время работы под нагрузкой .Часы " type="int32" />
+				<signal address="32168" icsId="15" name="Дизель-генератор. Время работы под нагрузкой .Минуты " type="int32" />
+				<signal address="32170" icsId="16" name="Дизель-генератор. Время работы под нагрузкой .количество пусков (включений) " type="int32" />
+				<signal address="32172" icsId="17" name="Насос топливоподкачивающий 1 (НТП1) .Часы " type="int32" />
+				<signal address="32174" icsId="18" name="Насос топливоподкачивающий 1 (НТП1) .Минуты " type="int32" />
+				<signal address="32176" icsId="19" name="Насос топливоподкачивающий 1 (НТП1) .количество пусков (включений) " type="int32" />
+				<signal address="32178" icsId="20" name="Насос топливоподкачивающий 2 (НТП2) .Часы " type="int32" />
+				<signal address="32180" icsId="21" name="Насос топливоподкачивающий 2 (НТП2) .Минуты " type="int32" />
+				<signal address="32182" icsId="22" name="Насос топливоподкачивающий 2 (НТП2) .количество пусков (включений) " type="int32" />
+				<signal address="32184" icsId="23" name="Насос опрессовки системы (НОС) .Часы " type="int32" />
+				<signal address="32186" icsId="24" name="Насос опрессовки системы (НОС) .Минуты " type="int32" />
+				<signal address="32188" icsId="25" name="Насос опрессовки системы (НОС) .количество пусков (включений) " type="int32" />
+				<signal address="32190" icsId="26" name="Насос закачки масла (НЗМ) .Часы " type="int32" />
+				<signal address="32192" icsId="27" name="Насос закачки масла (НЗМ) .Минуты " type="int32" />
+				<signal address="32194" icsId="28" name="Насос закачки масла (НЗМ) .количество пусков (включений) " type="int32" />
+				<signal address="32196" icsId="29" name="Насос прокачки масла (НПМ) .Часы " type="int32" />
+				<signal address="32198" icsId="30" name="Насос прокачки масла (НПМ) .Минуты " type="int32" />
+				<signal address="32200" icsId="31" name="Насос прокачки масла (НПМ) .количество пусков (включений) " type="int32" />
+				<signal address="32202" icsId="32" name="Насос воды горячего резерва (НВГР) .Часы " type="int32" />
+				<signal address="32204" icsId="33" name="Насос воды горячего резерва (НВГР) .Минуты " type="int32" />
+				<signal address="32206" icsId="34" name="Насос воды горячего резерва (НВГР) .количество пусков (включений) " type="int32" />
+				<signal address="32208" icsId="35" name="Насос подачи воды в систему (НПВ) .Часы " type="int32" />
+				<signal address="32210" icsId="36" name="Насос подачи воды в систему (НПВ) .Минуты " type="int32" />
+				<signal address="32212" icsId="37" name="Насос подачи воды в систему (НПВ) .количество пусков (включений) " type="int32" />
+				<signal address="32214" icsId="38" name="Электронагреватель воды (ЭНВ) .Часы " type="int32" />
+				<signal address="32216" icsId="39" name="Электронагреватель воды (ЭНВ) .Минуты " type="int32" />
+				<signal address="32218" icsId="40" name="Электронагреватель воды (ЭНВ) .количество пусков (включений) " type="int32" />
+				<signal address="32220" icsId="41" name="Компрессор воздушный.Часы " type="int32" />
+				<signal address="32222" icsId="42" name="Компрессор воздушный.Минуты " type="int32" />
+				<signal address="32224" icsId="43" name="Компрессор воздушный. Количество пусков (включений) " type="int32" />
+				<signal address="32030.0" icsId="44" name="Обобщенная неисправность процессора CPU730 и модулей" type="bit" />
+				<signal address="32030.1" icsId="45" name="Отказ Ethernet LAN1 процессора CPU730" type="bit" />
+				<signal address="32030.2" icsId="46" name="Отказ шины СAN1 процессора CPU730" type="bit" />
+				<signal address="32030.3" icsId="47" name="Отказ шины СAN2 процессора CPU730" type="bit" />
+				<signal address="32030.4" icsId="48" name="Отказ канала зеркализации SSLAN1 процессора CPU730" type="bit" />
+				<signal address="32030.5" icsId="49" name="Отказ канала зеркализации SSLAN2 процессора CPU730" type="bit" />
+				<signal address="32030.6" icsId="50" name="Отказ питания +24В" type="bit" />
+				<signal address="32030.7" icsId="51" name="Отказ модуля DI48-24M (A3)" type="bit" />
+				<signal address="32030.8" icsId="52" name="Отказ модуля DI48-24M (A4)" type="bit" />
+				<signal address="32030.9" icsId="53" name="Отказ модуля DI48-24M (A5)" type="bit" />
+				<signal address="32030.10" icsId="54" name="Отказ модуля DI48-24M (A6)" type="bit" />
+				<signal address="32030.11" icsId="55" name="Отказ модуля DO32-24P (A7) " type="bit" />
+				<signal address="32030.12" icsId="56" name="Отказ модуля DO32-24P (A8) " type="bit" />
+				<signal address="32030.13" icsId="57" name="Отказ модуля DO32-24P (A9) " type="bit" />
+				<signal address="32030.14" icsId="58" name="Отказ модуля DO32-24P (A10) " type="bit" />
+				<signal address="32030.15" icsId="59" name="Отказ модуля AI16 (A11)" type="bit" />
+				<signal address="32031.0" icsId="60" name="Отказ модуля AI16 (A12)" type="bit" />
+				<signal address="32031.1" icsId="61" name="Отказ модуля AI16 (A13)" type="bit" />
+				<signal address="32031.2" icsId="62" name="Отказ модуля AI16 (A14)" type="bit" />
+				<signal address="32031.3" icsId="63" name="Отказ модуля LI16 (A15) " type="bit" />
+				<signal address="32031.4" icsId="64" name="Отказ модуля LI16 (A16) " type="bit" />
+				<signal address="32031.5" icsId="65" name="Отказ модуля LI16 (A17) " type="bit" />
+				<signal address="32031.6" icsId="66" name="Отказ модуля AO8 (A18) " type="bit" />
+				<signal address="32031.7" icsId="67" name="Неисправность батарейки процессора CPU730" type="bit" />
+				<signal address="32031.8" icsId="68" name="резерв" type="bit" />
+				<signal address="32031.9" icsId="69" name="резерв" type="bit" />
+				<signal address="32031.10" icsId="70" name="резерв" type="bit" />
+				<signal address="32031.11" icsId="71" name="резерв" type="bit" />
+				<signal address="32031.12" icsId="72" name="резерв" type="bit" />
+				<signal address="32031.13" icsId="73" name="резерв" type="bit" />
+				<signal address="32031.14" icsId="74" name="резерв" type="bit" />
+				<signal address="32031.15" icsId="75" name="резерв" type="bit" />
+				<signal address="32040.0" icsId="76" name="Автоматический пуск" type="bit" />
+				<signal address="32040.1" icsId="77" name="Пуск ДГ с МЩУ" type="bit" />
+				<signal address="32040.2" icsId="78" name="Останов ДГ после штатного пуска и работы на нагрузку" type="bit" />
+				<signal address="32040.3" icsId="79" name="Останов ДГ с МЩУ" type="bit" />
+				<signal address="32040.4" icsId="80" name="Неготовность ДГ " type="bit" />
+				<signal address="32040.5" icsId="81" name="Неисправность ДГ" type="bit" />
+				<signal address="32040.6" icsId="82" name="Технологическая защита" type="bit" />
+				<signal address="32040.7" icsId="83" name="Uген>0,95 Uном" type="bit" />
+				<signal address="32040.8" icsId="84" name="Неготовность генератора" type="bit" />
+				<signal address="32040.9" icsId="85" name="Неисправность генератора" type="bit" />
+				<signal address="32040.10" icsId="86" name="Электрическая защита" type="bit" />
+				<signal address="32040.11" icsId="87" name="ВГ включен, секция 1" type="bit" />
+				<signal address="32040.12" icsId="88" name="ВГ включен, секция 2" type="bit" />
+				<signal address="32040.13" icsId="89" name="ВГ отключен, секция 1" type="bit" />
+				<signal address="32040.14" icsId="90" name="ВГ отключен, секция 2" type="bit" />
+				<signal address="32040.15" icsId="91" name="Включить ВГ с МЩУ при параллельной работе, секция 1" type="bit" />
+				<signal address="32041.0" icsId="92" name="Включить ВГ с МЩУ при параллельной работе, секция 2" type="bit" />
+				<signal address="32041.1" icsId="93" name="Отключить ВГ при нормальном останове, секция 1" type="bit" />
+				<signal address="32041.2" icsId="94" name="Отключить ВГ при нормальном останове, секция 2" type="bit" />
+				<signal address="32041.3" icsId="95" name="Отключить ВГ при экстренном останове, секция 1" type="bit" />
+				<signal address="32041.4" icsId="96" name="Отключить ВГ при экстренном останове, секция 2" type="bit" />
+				<signal address="32041.5" icsId="97" name="Выдать сигнал Включить возбуждение" type="bit" />
+				<signal address="32041.6" icsId="98" name="Выдать сигнал Отключить возбуждение" type="bit" />
+				<signal address="32041.7" icsId="99" name="Работа" type="bit" />
+				<signal address="32041.8" icsId="100" name="Автоматический пуск (для табло)" type="bit" />
+				<signal address="32041.9" icsId="101" name="Пуск ДГ с МЩУ (для табло)" type="bit" />
+				<signal address="32041.10" icsId="102" name="Останов (для табло)" type="bit" />
+				<signal address="32041.11" icsId="103" name="Режим Дежурство" type="bit" />
+				<signal address="32041.12" icsId="104" name="Режим ТО" type="bit" />
+				<signal address="32041.13" icsId="105" name="Подрежим Опробование" type="bit" />
+				<signal address="32041.14" icsId="106" name="Переключатель режима в положении Дежурство" type="bit" />
+				<signal address="32041.15" icsId="107" name="Переключатель режима в положении Теническое обслуживание" type="bit" />
+				<signal address="32042.0" icsId="108" name="Валоповоротное устройство включено" type="bit" />
+				<signal address="32042.1" icsId="109" name="Заземление со стороны ВГ" type="bit" />
+				<signal address="32042.2" icsId="110" name="Переключатель режима в положении Теническое обслуживание" type="bit" />
+				<signal address="32042.3" icsId="111" name="Экстренный останов ДГ от внешних защит, секция 1" type="bit" />
+				<signal address="32042.4" icsId="112" name="Экстренный останов ДГ от внешних защит, секция 2" type="bit" />
+				<signal address="32042.5" icsId="113" name="Неотключаемая защита СВ" type="bit" />
+				<signal address="32042.6" icsId="114" name="Неготовность СВ" type="bit" />
+				<signal address="32042.7" icsId="115" name="Неотключаемая защита генератора" type="bit" />
+				<signal address="32042.8" icsId="116" name="Неготовность ШУГ" type="bit" />
+				<signal address="32042.9" icsId="117" name="Неготовность САРЧ" type="bit" />
+				<signal address="32042.10" icsId="118" name="Критически низкое давление масла на входе в дизель" type="bit" />
+				<signal address="32042.11" icsId="119" name="Критически высокие обороты ДГ" type="bit" />
+				<signal address="32042.12" icsId="120" name="Экстренный останов с МЩУ" type="bit" />
+				<signal address="32042.13" icsId="121" name="Экстренный останов от кнопки ДГ" type="bit" />
+				<signal address="32042.14" icsId="122" name="резерв" type="bit" />
+				<signal address="32042.15" icsId="123" name="Режим Метрология" type="bit" />
+				<signal address="32043.0" icsId="124" name="резерв" type="bit" />
+				<signal address="32043.1" icsId="125" name="резерв" type="bit" />
+				<signal address="32043.2" icsId="126" name="резерв" type="bit" />
+				<signal address="32043.3" icsId="127" name="резерв" type="bit" />
+				<signal address="32043.4" icsId="128" name="резерв" type="bit" />
+				<signal address="32043.5" icsId="129" name="резерв" type="bit" />
+				<signal address="32043.6" icsId="130" name="резерв" type="bit" />
+				<signal address="32043.7" icsId="131" name="резерв" type="bit" />
+				<signal address="32043.8" icsId="132" name="резерв" type="bit" />
+				<signal address="32043.9" icsId="133" name="резерв" type="bit" />
+				<signal address="32043.10" icsId="134" name="резерв" type="bit" />
+				<signal address="32043.11" icsId="135" name="резерв" type="bit" />
+				<signal address="32043.12" icsId="136" name="резерв" type="bit" />
+				<signal address="32043.13" icsId="137" name="резерв" type="bit" />
+				<signal address="32043.14" icsId="138" name="резерв" type="bit" />
+				<signal address="32043.15" icsId="139" name="резерв" type="bit" />
+				<signal address="32044.0" icsId="140" name="Несостоявшийся пуск" type="bit" />
+				<signal address="32044.1" icsId="141" name="Незавершенный пуск" type="bit" />
+				<signal address="32044.2" icsId="142" name="Нет включения ВГ, секция 1" type="bit" />
+				<signal address="32044.3" icsId="143" name="Нет включения ВГ, секция 2" type="bit" />
+				<signal address="32044.4" icsId="144" name="Нет отключения ВГ, секция 1" type="bit" />
+				<signal address="32044.5" icsId="145" name="Нет отключения ВГ, секция 2" type="bit" />
+				<signal address="32044.6" icsId="146" name="Нет останова ДГ" type="bit" />
+				<signal address="32044.7" icsId="147" name="Отключаемая защита СВ" type="bit" />
+				<signal address="32044.8" icsId="148" name="Неисправность СВ" type="bit" />
+				<signal address="32044.9" icsId="149" name="Отключаемая защита генератора" type="bit" />
+				<signal address="32044.10" icsId="150" name="Электрическая защита генератора «на сигнал»" type="bit" />
+				<signal address="32044.11" icsId="151" name="Превышение частоты вращения ДГ" type="bit" />
+				<signal address="32044.12" icsId="152" name="Неисправность САРЧ" type="bit" />
+				<signal address="32044.13" icsId="153" name="Неисправность системы «горячего резерва»" type="bit" />
+				<signal address="32044.14" icsId="154" name="Неисправность датчика " type="bit" />
+				<signal address="32044.15" icsId="155" name="резерв" type="bit" />
+				<signal address="32045.0" icsId="156" name="Нет питания на вводе 1 ШБП" type="bit" />
+				<signal address="32045.1" icsId="157" name="Нет питания на вводе 2 ШБП" type="bit" />
+				<signal address="32045.2" icsId="158" name="Нет питания на вводе 1 ШУД" type="bit" />
+				<signal address="32045.3" icsId="159" name="Нет питания на вводе 2 ШУД" type="bit" />
+				<signal address="32045.4" icsId="160" name="Нет питания на вводе 1 ШУГ" type="bit" />
+				<signal address="32045.5" icsId="161" name="Нет питания на вводе 2 ШУГ" type="bit" />
+				<signal address="32045.6" icsId="162" name="Нет питания на вводе 1 ШСН" type="bit" />
+				<signal address="32045.7" icsId="163" name="Нет питания на вводе 2 ШСН" type="bit" />
+				<signal address="32045.8" icsId="164" name="Неисправность Micom, канал 1" type="bit" />
+				<signal address="32045.9" icsId="165" name="Неисправность Micom, канал 2" type="bit" />
+				<signal address="32045.10" icsId="166" name="Неисправность ИБП, 1 канал" type="bit" />
+				<signal address="32045.11" icsId="167" name="Неисправность ИБП, 2 канал" type="bit" />
+				<signal address="32045.12" icsId="168" name="Обобщенные неисправности процессора, модулей, сети " type="bit" />
+				<signal address="32045.13" icsId="169" name="резерв" type="bit" />
+				<signal address="32045.14" icsId="170" name="резерв" type="bit" />
+				<signal address="32045.15" icsId="171" name="резерв" type="bit" />
+				<signal address="32046.0" icsId="172" name="Уровень топлива в промежуточном баке выше допустимого" type="bit" />
+				<signal address="32046.1" icsId="173" name="Уровень топлива в промежуточном баке ниже допустимого" type="bit" />
+				<signal address="32046.2" icsId="174" name="Уровень топлива в расходном баке ниже допустимого" type="bit" />
+				<signal address="32046.3" icsId="175" name="Утечка топлива в ряде А" type="bit" />
+				<signal address="32046.4" icsId="176" name="Утечка топлива в ряде B" type="bit" />
+				<signal address="32046.5" icsId="177" name="Низкое давление топлива на входе в дизель" type="bit" />
+				<signal address="32046.6" icsId="178" name="Загрязнение фильтра тонкой очистки топлива" type="bit" />
+				<signal address="32046.7" icsId="179" name="Загрязнение фильтра грубой очистки топлива" type="bit" />
+				<signal address="32046.8" icsId="180" name="Уровень в расходном баке масла выше допустимого" type="bit" />
+				<signal address="32046.9" icsId="181" name="Уровень в расходном баке масла ниже допустимого" type="bit" />
+				<signal address="32046.10" icsId="182" name="Уровень масла в картере ниже допустимого" type="bit" />
+				<signal address="32046.11" icsId="183" name="Давление масла на входе в дизель 1 ниже допустимого" type="bit" />
+				<signal address="32046.12" icsId="184" name="Давление масла на входе в дизель 2 ниже допустимого" type="bit" />
+				<signal address="32046.13" icsId="185" name="Давление масла на входе в дизель 3 ниже допустимого" type="bit" />
+				<signal address="32046.14" icsId="186" name="Температура масла на входе в дизель выше допустимого" type="bit" />
+				<signal address="32046.15" icsId="187" name="Температура масла на выходе из дизеля выше допустимого" type="bit" />
+				<signal address="32047.0" icsId="188" name="Загрязнение фильтра масла" type="bit" />
+				<signal address="32047.1" icsId="189" name="Уровень воды в расширительном баке ниже допустимого" type="bit" />
+				<signal address="32047.2" icsId="190" name="Критически низкий уровень воды в расширительном баке" type="bit" />
+				<signal address="32047.3" icsId="191" name="Низкое давление воды холодного контура на входе в дизель" type="bit" />
+				<signal address="32047.4" icsId="192" name="Низкое давление воды горячего контура на входе в дизель" type="bit" />
+				<signal address="32047.5" icsId="193" name="Высокая температура воды горячего контура на выходе дизеля" type="bit" />
+				<signal address="32047.6" icsId="194" name="Критически высокая температура воды горячего контура на выходе дизеля" type="bit" />
+				<signal address="32047.7" icsId="195" name="Низкий уровень в баке водоподготовки" type="bit" />
+				<signal address="32047.8" icsId="196" name="Низкое давление воздуха в пусковых баллонах" type="bit" />
+				<signal address="32047.9" icsId="197" name="Температура выхлопных газов выше допустимого (табло)" type="bit" />
+				<signal address="32047.10" icsId="198" name="Критически высокая температура воды в ЭНВ" type="bit" />
+				<signal address="32047.11" icsId="199" name="Температура выхлопных газов цилиндра А1 выше допустимого" type="bit" />
+				<signal address="32047.12" icsId="200" name="Температура выхлопных газов цилиндра А2 выше допустимого" type="bit" />
+				<signal address="32047.13" icsId="201" name="Температура выхлопных газов цилиндра А3 выше допустимого" type="bit" />
+				<signal address="32047.14" icsId="202" name="Температура выхлопных газов цилиндра А4 выше допустимого" type="bit" />
+				<signal address="32047.15" icsId="203" name="Температура выхлопных газов цилиндра А5 выше допустимого" type="bit" />
+				<signal address="32048.0" icsId="204" name="Температура выхлопных газов цилиндра А6 выше допустимого" type="bit" />
+				<signal address="32048.1" icsId="205" name="Температура выхлопных газов цилиндра А7 выше допустимого" type="bit" />
+				<signal address="32048.2" icsId="206" name="Температура выхлопных газов цилиндра А8 выше допустимого" type="bit" />
+				<signal address="32048.3" icsId="207" name="Температура выхлопных газов цилиндра А9 выше допустимого" type="bit" />
+				<signal address="32048.4" icsId="208" name="Температура выхлопных газов цилиндра А10 выше допустимого" type="bit" />
+				<signal address="32048.5" icsId="209" name="Температура выхлопных газов цилиндра B1 выше допустимого" type="bit" />
+				<signal address="32048.6" icsId="210" name="Температура выхлопных газов цилиндра B2 выше допустимого" type="bit" />
+				<signal address="32048.7" icsId="211" name="Температура выхлопных газов цилиндра B3 выше допустимого" type="bit" />
+				<signal address="32048.8" icsId="212" name="Температура выхлопных газов цилиндра B4 выше допустимого" type="bit" />
+				<signal address="32048.9" icsId="213" name="Температура выхлопных газов цилиндра B5 выше допустимого" type="bit" />
+				<signal address="32048.10" icsId="214" name="Температура выхлопных газов цилиндра B6 выше допустимого" type="bit" />
+				<signal address="32048.11" icsId="215" name="Температура выхлопных газов цилиндра B7 выше допустимого" type="bit" />
+				<signal address="32048.12" icsId="216" name="Температура выхлопных газов цилиндра B8 выше допустимого" type="bit" />
+				<signal address="32048.13" icsId="217" name="Температура выхлопных газов цилиндра B9 выше допустимого" type="bit" />
+				<signal address="32048.14" icsId="218" name="Температура выхлопных газов цилиндра B10 выше допустимого" type="bit" />
+				<signal address="32048.15" icsId="219" name="Температура обмоток статора выше допустимого, фаза А" type="bit" />
+				<signal address="32049.0" icsId="220" name="Температура обмоток статора выше допустимого, фаза B" type="bit" />
+				<signal address="32049.1" icsId="221" name="Температура обмоток статора выше допустимого, фаза C" type="bit" />
+				<signal address="32049.2" icsId="222" name="Критически высокая температура обмоток статора, фаза А" type="bit" />
+				<signal address="32049.3" icsId="223" name="Критически высокая температура обмоток статора, фаза B" type="bit" />
+				<signal address="32049.4" icsId="224" name="Критически высокая температура обмоток статора, фаза C" type="bit" />
+				<signal address="32049.5" icsId="225" name="Температура сердечника статора выше допустимого, фаза А" type="bit" />
+				<signal address="32049.6" icsId="226" name="Температура сердечника статора выше допустимого, фаза B" type="bit" />
+				<signal address="32049.7" icsId="227" name="Температура сердечника статора выше допустимого, фаза C" type="bit" />
+				<signal address="32049.8" icsId="228" name="Температура подшипника 1 генератора выше допустимого" type="bit" />
+				<signal address="32049.9" icsId="229" name="Температура подшипника 2 генератора выше допустимого" type="bit" />
+				<signal address="32049.10" icsId="230" name="Критически высокая температура подшипника 1 генератора" type="bit" />
+				<signal address="32049.11" icsId="231" name="Критически высокая температура подшипника 2 генератора" type="bit" />
+				<signal address="32050.0" icsId="232" name="Автоматический режим топливоподкачивающих насосов отключен" type="bit" />
+				<signal address="32050.1" icsId="233" name="Автоматический режим работы системы горячего резерва отключен" type="bit" />
+				<signal address="32050.2" icsId="234" name="Автоматический режим насоса закачки масла отключен" type="bit" />
+				<signal address="32050.3" icsId="235" name="Автоматический режим насоса подачи воды в систему отключен" type="bit" />
+				<signal address="32050.4" icsId="236" name="Автомат питания насоса топливоподкачивающего 1 отключен" type="bit" />
+				<signal address="32050.5" icsId="237" name="Автомат питания насоса топливоподкачивающего 2 отключен" type="bit" />
+				<signal address="32050.6" icsId="238" name="Автомат питания насоса закачки масла отключен" type="bit" />
+				<signal address="32050.7" icsId="239" name="Автомат питания насоса подачи воды в систему отключен" type="bit" />
+				<signal address="32050.8" icsId="240" name="Автомат питания насоса воды горячего резерва отключен" type="bit" />
+				<signal address="32050.9" icsId="241" name="Автомат питания насоса прокачки масла отключен" type="bit" />
+				<signal address="32050.10" icsId="242" name="Неисправность компрессора воздушного" type="bit" />
+				<signal address="32050.11" icsId="243" name="Земля в цепях питания" type="bit" />
+				<signal address="32051.0" icsId="244" name="Дверь ШУД закрыта" type="bit" />
+				<signal address="32051.1" icsId="245" name="Дверь ШУГ закрыта" type="bit" />
+				<signal address="32051.2" icsId="246" name="Дверь ШСН закрыта" type="bit" />
+				<signal address="32051.3" icsId="247" name="Дверь ШБП закрыта" type="bit" />
+				<signal address="32051.4" icsId="248" name="Ошибочное переключение ключа РЕЖИМ" type="bit" />
+				<signal address="32051.5" icsId="249" name="Защита ДГ" type="bit" />
+				<signal address="32051.6" icsId="250" name="Наличие связи с ПУ" type="bit" />
+				<signal address="32052.0" icsId="251" name="Насос топливоподкачивающий 1 включен" type="bit" />
+				<signal address="32052.1" icsId="252" name="Насос топливоподкачивающий 2 включен" type="bit" />
+				<signal address="32052.2" icsId="253" name="Насос опрессовки системы включен" type="bit" />
+				<signal address="32052.3" icsId="254" name="Насос закачки масла включен" type="bit" />
+				<signal address="32052.4" icsId="255" name="Насос прокачки масла включен" type="bit" />
+				<signal address="32052.5" icsId="256" name="Насос воды горячего резерва включен" type="bit" />
+				<signal address="32052.6" icsId="257" name="Насос подачи воды в систему включен" type="bit" />
+				<signal address="32052.7" icsId="258" name="Электронагреватель воды включен" type="bit" />
+				<signal address="32052.8" icsId="259" name="Компрессор воздушный включен" type="bit" />
+				<signal address="32052.9" icsId="260" name="Клапан пуска 1 под током" type="bit" />
+				<signal address="32052.10" icsId="261" name="Клапан пуска 2 под током" type="bit" />
+				<signal address="32052.11" icsId="262" name="Клапан приеместости под током" type="bit" />
+				<signal address="32052.12" icsId="263" name="Клапан долива топлива открыт" type="bit" />
+				<signal address="32052.13" icsId="264" name="Клапан долива топлива закрыт" type="bit" />
+				<signal address="32052.14" icsId="265" name="резерв" type="bit" />
+				<signal address="32052.15" icsId="266" name="резерв" type="bit" />
+				<signal address="32053.0" icsId="267" name="резерв" type="bit" />
+				<signal address="32053.1" icsId="268" name="резерв" type="bit" />
+				<signal address="32053.2" icsId="269" name="резерв" type="bit" />
+				<signal address="32053.3" icsId="270" name="резерв" type="bit" />
+				<signal address="32053.4" icsId="271" name="резерв" type="bit" />
+				<signal address="32053.5" icsId="272" name="резерв" type="bit" />
+				<signal address="32053.6" icsId="273" name="резерв" type="bit" />
+				<signal address="32053.7" icsId="274" name="резерв" type="bit" />
+				<signal address="32053.8" icsId="275" name="резерв" type="bit" />
+				<signal address="32053.9" icsId="276" name="резерв" type="bit" />
+				<signal address="32053.10" icsId="277" name="резерв" type="bit" />
+				<signal address="32053.11" icsId="278" name="резерв" type="bit" />
+				<signal address="32053.12" icsId="279" name="резерв" type="bit" />
+				<signal address="32053.13" icsId="280" name="резерв" type="bit" />
+				<signal address="32053.14" icsId="281" name="резерв" type="bit" />
+				<signal address="32053.15" icsId="282" name="резерв" type="bit" />
+				<signal address="32054.0" icsId="283" name="Канал управления" type="bit" />
+				<signal address="32054.1" icsId="284" name="Останов" type="bit" />
+				<signal address="32054.2" icsId="285" name="Второй контур" type="bit" />
+				<signal address="32054.3" icsId="286" name="резерв" type="bit" />
+				<signal address="32054.4" icsId="287" name="резерв" type="bit" />
+				<signal address="32054.5" icsId="288" name="резерв" type="bit" />
+				<signal address="32054.6" icsId="289" name="резерв" type="bit" />
+				<signal address="32054.7" icsId="290" name="резерв" type="bit" />
+				<signal address="32054.8" icsId="291" name="резерв" type="bit" />
+				<signal address="32054.9" icsId="292" name="резерв" type="bit" />
+				<signal address="32054.10" icsId="293" name="резерв" type="bit" />
+				<signal address="32054.11" icsId="294" name="резерв" type="bit" />
+				<signal address="32054.12" icsId="295" name="резерв" type="bit" />
+				<signal address="32054.13" icsId="296" name="резерв" type="bit" />
+				<signal address="32054.14" icsId="297" name="резерв" type="bit" />
+				<signal address="32054.15" icsId="298" name="резерв" type="bit" />
+				<signal address="32055.0" icsId="299" name="резерв" type="bit" />
+				<signal address="32055.1" icsId="300" name="резерв" type="bit" />
+				<signal address="32055.2" icsId="301" name="резерв" type="bit" />
+				<signal address="32055.3" icsId="302" name="резерв" type="bit" />
+				<signal address="32055.4" icsId="303" name="резерв" type="bit" />
+				<signal address="32055.5" icsId="304" name="резерв" type="bit" />
+				<signal address="32055.6" icsId="305" name="резерв" type="bit" />
+				<signal address="32055.7" icsId="306" name="резерв" type="bit" />
+				<signal address="32055.8" icsId="307" name="резерв" type="bit" />
+				<signal address="32055.9" icsId="308" name="резерв" type="bit" />
+				<signal address="32055.10" icsId="309" name="резерв" type="bit" />
+				<signal address="32055.11" icsId="310" name="резерв" type="bit" />
+				<signal address="32055.12" icsId="311" name="резерв" type="bit" />
+				<signal address="32055.13" icsId="312" name="резерв" type="bit" />
+				<signal address="32055.14" icsId="313" name="резерв" type="bit" />
+				<signal address="32055.15" icsId="314" name="резерв" type="bit" />
+				<signal address="32060.0" icsId="315" name="Уровень в промежуточном баке топлива (ПТБ)" type="bit" />
+				<signal address="32060.1" icsId="316" name="Уровень в расходном баке топлива (рабочем) (РТБ)" type="bit" />
+				<signal address="32060.2" icsId="317" name="Уровень в расходном баке топлива (резервном) (РТБ)" type="bit" />
+				<signal address="32060.3" icsId="318" name="Давление топлива на входе в дизель" type="bit" />
+				<signal address="32060.4" icsId="319" name="Перепад давления на ФТОТ" type="bit" />
+				<signal address="32060.5" icsId="320" name="Перепад давления на ФГОТ" type="bit" />
+				<signal address="32060.6" icsId="321" name="Резерв" type="bit" />
+				<signal address="32060.7" icsId="322" name="Резерв" type="bit" />
+				<signal address="32060.8" icsId="323" name="Уровень в расходном баке масла (рабочем) (РБМ)" type="bit" />
+				<signal address="32060.9" icsId="324" name="Уровень в расходном баке масла (резервном) (РБМ)" type="bit" />
+				<signal address="32060.10" icsId="325" name="Уровень масла в картере" type="bit" />
+				<signal address="32060.11" icsId="326" name="Давление масла на входе в дизель 1" type="bit" />
+				<signal address="32060.12" icsId="327" name="Давление масла на входе в дизель 2" type="bit" />
+				<signal address="32060.13" icsId="328" name="Давление масла на входе в дизель 3" type="bit" />
+				<signal address="32060.14" icsId="329" name="Температура масла на входе в дизель" type="bit" />
+				<signal address="32060.15" icsId="330" name="Температура масла на выходе из дизеля" type="bit" />
+				<signal address="32061.0" icsId="331" name="Уровень воды в расширительном баке (РБВ)" type="bit" />
+				<signal address="32061.1" icsId="332" name="Давление воды на входе в дизель холодного контура" type="bit" />
+				<signal address="32061.2" icsId="333" name="Давление воды на входе в дизель горячего контура" type="bit" />
+				<signal address="32061.3" icsId="334" name="Температура воды горячего контура на выходе из дизеля" type="bit" />
+				<signal address="32061.4" icsId="335" name="Температура воды в ЭНВ" type="bit" />
+				<signal address="32061.5" icsId="336" name="Уровень воды в баке водоподготовки (БВП)" type="bit" />
+				<signal address="32061.6" icsId="337" name="Резерв" type="bit" />
+				<signal address="32061.7" icsId="338" name="Резерв" type="bit" />
+				<signal address="32061.8" icsId="339" name="Давление сжатого воздуха в баллонах" type="bit" />
+				<signal address="32061.9" icsId="340" name="Резерв" type="bit" />
+				<signal address="32061.10" icsId="341" name="Резерв" type="bit" />
+				<signal address="32061.11" icsId="342" name="Резерв" type="bit" />
+				<signal address="32061.12" icsId="343" name="Частота вращения коленвала дизеля (1 канал)" type="bit" />
+				<signal address="32061.13" icsId="344" name="Частота вращения коленвала дизеля (2 канал)" type="bit" />
+				<signal address="32061.14" icsId="345" name="Резерв" type="bit" />
+				<signal address="32061.15" icsId="346" name="Активная мощность" type="bit" />
+				<signal address="32062.0" icsId="347" name="Температура выхлопных газов на выходе цилиндра A1" type="bit" />
+				<signal address="32062.1" icsId="348" name="Температура выхлопных газов на выходе цилиндра A2" type="bit" />
+				<signal address="32062.2" icsId="349" name="Температура выхлопных газов на выходе цилиндра A3" type="bit" />
+				<signal address="32062.3" icsId="350" name="Температура выхлопных газов на выходе цилиндра A4" type="bit" />
+				<signal address="32062.4" icsId="351" name="Температура выхлопных газов на выходе цилиндра A5" type="bit" />
+				<signal address="32062.5" icsId="352" name="Температура выхлопных газов на выходе цилиндра A6" type="bit" />
+				<signal address="32062.6" icsId="353" name="Температура выхлопных газов на выходе цилиндра A7" type="bit" />
+				<signal address="32062.7" icsId="354" name="Температура выхлопных газов на выходе цилиндра A8" type="bit" />
+				<signal address="32062.8" icsId="355" name="Температура выхлопных газов на выходе цилиндра A9" type="bit" />
+				<signal address="32062.9" icsId="356" name="Температура выхлопных газов на выходе цилиндра A10" type="bit" />
+				<signal address="32062.10" icsId="357" name="Резерв" type="bit" />
+				<signal address="32062.11" icsId="358" name="Резерв" type="bit" />
+				<signal address="32062.12" icsId="359" name="Резерв" type="bit" />
+				<signal address="32062.13" icsId="360" name="Резерв" type="bit" />
+				<signal address="32062.14" icsId="361" name="Резерв" type="bit" />
+				<signal address="32062.15" icsId="362" name="Резерв" type="bit" />
+				<signal address="32062.16" icsId="363" name="Резерв" type="bit" />
+				<signal address="32063.0" icsId="364" name="Температура выхлопных газов на выходе цилиндра B1" type="bit" />
+				<signal address="32063.1" icsId="365" name="Температура выхлопных газов на выходе цилиндра B2" type="bit" />
+				<signal address="32063.2" icsId="366" name="Температура выхлопных газов на выходе цилиндра B3" type="bit" />
+				<signal address="32063.3" icsId="367" name="Температура выхлопных газов на выходе цилиндра B4" type="bit" />
+				<signal address="32063.4" icsId="368" name="Температура выхлопных газов на выходе цилиндра B5" type="bit" />
+				<signal address="32063.5" icsId="369" name="Температура выхлопных газов на выходе цилиндра B6" type="bit" />
+				<signal address="32063.6" icsId="370" name="Температура выхлопных газов на выходе цилиндра B7" type="bit" />
+				<signal address="32063.7" icsId="371" name="Температура выхлопных газов на выходе цилиндра B8" type="bit" />
+				<signal address="32063.8" icsId="372" name="Температура выхлопных газов на выходе цилиндра B9" type="bit" />
+				<signal address="32063.9" icsId="373" name="Температура выхлопных газов на выходе цилиндра B10" type="bit" />
+				<signal address="32063.10" icsId="374" name="Резерв" type="bit" />
+				<signal address="32063.11" icsId="375" name="Резерв" type="bit" />
+				<signal address="32063.12" icsId="376" name="Резерв" type="bit" />
+				<signal address="32063.13" icsId="377" name="Резерв" type="bit" />
+				<signal address="32063.14" icsId="378" name="Резерв" type="bit" />
+				<signal address="32063.15" icsId="379" name="Резерв" type="bit" />
+				<signal address="32064.0" icsId="380" name="Температура подшипника генератора 1" type="bit" />
+				<signal address="32064.1" icsId="381" name="Температура подшипника генератора 2" type="bit" />
+				<signal address="32064.2" icsId="382" name="Температура сердечника статора фаза A" type="bit" />
+				<signal address="32064.3" icsId="383" name="Температура сердечника статора фаза B" type="bit" />
+				<signal address="32064.4" icsId="384" name="Температура сердечника статора фаза C" type="bit" />
+				<signal address="32064.5" icsId="385" name="Температура обмотки статора фаза A" type="bit" />
+				<signal address="32064.6" icsId="386" name="Температура обмотки статора фаза B" type="bit" />
+				<signal address="32064.7" icsId="387" name="Температура обмотки статора фаза C" type="bit" />
+				<signal address="32064.8" icsId="388" name="Резерв" type="bit" />
+				<signal address="32064.9" icsId="389" name="Резерв" type="bit" />
+				<signal address="32064.10" icsId="390" name="Резерв" type="bit" />
+				<signal address="32064.11" icsId="391" name="Резерв" type="bit" />
+				<signal address="32064.12" icsId="392" name="Резерв" type="bit" />
+				<signal address="32064.13" icsId="393" name="Резерв" type="bit" />
+				<signal address="32064.14" icsId="394" name="Резерв" type="bit" />
+				<signal address="32064.15" icsId="395" name="Резерв" type="bit" />
+				<signal address="32065.0" icsId="396" name="Резерв" type="bit" />
+				<signal address="32065.1" icsId="397" name="Резерв" type="bit" />
+				<signal address="32065.2" icsId="398" name="Резерв" type="bit" />
+				<signal address="32065.3" icsId="399" name="Резерв" type="bit" />
+				<signal address="32065.4" icsId="400" name="Резерв" type="bit" />
+				<signal address="32065.5" icsId="401" name="Резерв" type="bit" />
+				<signal address="32065.6" icsId="402" name="Резерв" type="bit" />
+				<signal address="32065.7" icsId="403" name="Резерв" type="bit" />
+				<signal address="32065.8" icsId="404" name="Резерв" type="bit" />
+				<signal address="32065.9" icsId="405" name="Резерв" type="bit" />
+				<signal address="32065.10" icsId="406" name="Резерв" type="bit" />
+				<signal address="32065.11" icsId="407" name="Резерв" type="bit" />
+				<signal address="32065.12" icsId="408" name="Резерв" type="bit" />
+				<signal address="32065.13" icsId="409" name="Резерв" type="bit" />
+				<signal address="32065.14" icsId="410" name="Резерв" type="bit" />
+				<signal address="32065.15" icsId="411" name="Частота вращения ДГ по трем/двум датчикам" type="bit" />
+				<signal address="32066.0" icsId="412" name="Уровень в промежуточном баке топлива (ПТБ)" type="bit" />
+				<signal address="32066.1" icsId="413" name="Уровень в расходном баке топлива (рабочем) (РТБ)" type="bit" />
+				<signal address="32066.2" icsId="414" name="Уровень в расходном баке топлива (резервном) (РТБ)" type="bit" />
+				<signal address="32066.3" icsId="415" name="Давление топлива на входе в дизель" type="bit" />
+				<signal address="32066.4" icsId="416" name="Перепад давления на ФТОТ" type="bit" />
+				<signal address="32066.5" icsId="417" name="Перепад давления на ФГОТ" type="bit" />
+				<signal address="32066.6" icsId="418" name="Резерв" type="bit" />
+				<signal address="32066.7" icsId="419" name="Резерв" type="bit" />
+				<signal address="32066.8" icsId="420" name="Уровень в расходном баке масла (рабочем) (РБМ)" type="bit" />
+				<signal address="32066.9" icsId="421" name="Уровень в расходном баке масла (резервном) (РБМ)" type="bit" />
+				<signal address="32066.10" icsId="422" name="Уровень масла в картере" type="bit" />
+				<signal address="32066.11" icsId="423" name="Давление масла на входе в дизель 1" type="bit" />
+				<signal address="32066.12" icsId="424" name="Давление масла на входе в дизель 2" type="bit" />
+				<signal address="32066.13" icsId="425" name="Давление масла на входе в дизель 3" type="bit" />
+				<signal address="32066.14" icsId="426" name="Температура масла на входе в дизель" type="bit" />
+				<signal address="32066.15" icsId="427" name="Температура масла на выходе из дизеля" type="bit" />
+				<signal address="32067.0" icsId="428" name="Уровень воды в расширительном баке (РБВ)" type="bit" />
+				<signal address="32067.1" icsId="429" name="Давление воды на входе в дизель холодного контура" type="bit" />
+				<signal address="32067.2" icsId="430" name="Давление воды на входе в дизель горячего контура" type="bit" />
+				<signal address="32067.3" icsId="431" name="Температура воды горячего контура на выходе из дизеля" type="bit" />
+				<signal address="32067.4" icsId="432" name="Температура воды в ЭНВ" type="bit" />
+				<signal address="32067.5" icsId="433" name="Уровень воды в баке водоподготовки (БВП)" type="bit" />
+				<signal address="32067.6" icsId="434" name="Резерв" type="bit" />
+				<signal address="32067.7" icsId="435" name="Резерв" type="bit" />
+				<signal address="32067.8" icsId="436" name="Давление сжатого воздуха в баллонах" type="bit" />
+				<signal address="32067.9" icsId="437" name="Резерв" type="bit" />
+				<signal address="32067.10" icsId="438" name="Резерв" type="bit" />
+				<signal address="32067.11" icsId="439" name="Резерв" type="bit" />
+				<signal address="32067.12" icsId="440" name="Частота вращения коленвала дизеля (1 канал)" type="bit" />
+				<signal address="32067.13" icsId="441" name="Частота вращения коленвала дизеля (2 канал)" type="bit" />
+				<signal address="32067.14" icsId="442" name="Резерв" type="bit" />
+				<signal address="32067.15" icsId="443" name="Активная мощность" type="bit" />
+				<signal address="32068.0" icsId="444" name="Температура выхлопных газов на выходе цилиндра A1" type="bit" />
+				<signal address="32068.1" icsId="445" name="Температура выхлопных газов на выходе цилиндра A2" type="bit" />
+				<signal address="32068.2" icsId="446" name="Температура выхлопных газов на выходе цилиндра A3" type="bit" />
+				<signal address="32068.3" icsId="447" name="Температура выхлопных газов на выходе цилиндра A4" type="bit" />
+				<signal address="32068.4" icsId="448" name="Температура выхлопных газов на выходе цилиндра A5" type="bit" />
+				<signal address="32068.5" icsId="449" name="Температура выхлопных газов на выходе цилиндра A6" type="bit" />
+				<signal address="32068.6" icsId="450" name="Температура выхлопных газов на выходе цилиндра A7" type="bit" />
+				<signal address="32068.7" icsId="451" name="Температура выхлопных газов на выходе цилиндра A8" type="bit" />
+				<signal address="32068.8" icsId="452" name="Температура выхлопных газов на выходе цилиндра A9" type="bit" />
+				<signal address="32068.9" icsId="453" name="Температура выхлопных газов на выходе цилиндра A10" type="bit" />
+				<signal address="32068.10" icsId="454" name="Резерв" type="bit" />
+				<signal address="32068.11" icsId="455" name="Резерв" type="bit" />
+				<signal address="32068.12" icsId="456" name="Резерв" type="bit" />
+				<signal address="32068.13" icsId="457" name="Резерв" type="bit" />
+				<signal address="32068.14" icsId="458" name="Резерв" type="bit" />
+				<signal address="32068.15" icsId="459" name="Резерв" type="bit" />
+				<signal address="32069.0" icsId="460" name="Температура выхлопных газов на выходе цилиндра B1" type="bit" />
+				<signal address="32069.1" icsId="461" name="Температура выхлопных газов на выходе цилиндра B2" type="bit" />
+				<signal address="32069.2" icsId="462" name="Температура выхлопных газов на выходе цилиндра B3" type="bit" />
+				<signal address="32069.3" icsId="463" name="Температура выхлопных газов на выходе цилиндра B4" type="bit" />
+				<signal address="32069.4" icsId="464" name="Температура выхлопных газов на выходе цилиндра B5" type="bit" />
+				<signal address="32069.5" icsId="465" name="Температура выхлопных газов на выходе цилиндра B6" type="bit" />
+				<signal address="32069.6" icsId="466" name="Температура выхлопных газов на выходе цилиндра B7" type="bit" />
+				<signal address="32069.7" icsId="467" name="Температура выхлопных газов на выходе цилиндра B8" type="bit" />
+				<signal address="32069.8" icsId="468" name="Температура выхлопных газов на выходе цилиндра B9" type="bit" />
+				<signal address="32069.9" icsId="469" name="Температура выхлопных газов на выходе цилиндра B10" type="bit" />
+				<signal address="32069.10" icsId="470" name="Резерв" type="bit" />
+				<signal address="32069.11" icsId="471" name="Резерв" type="bit" />
+				<signal address="32069.12" icsId="472" name="Резерв" type="bit" />
+				<signal address="32069.13" icsId="473" name="Резерв" type="bit" />
+				<signal address="32069.14" icsId="474" name="Резерв" type="bit" />
+				<signal address="32069.15" icsId="475" name="Резерв" type="bit" />
+				<signal address="32070.0" icsId="476" name="Температура подшипника генератора 1" type="bit" />
+				<signal address="32070.1" icsId="477" name="Температура подшипника генератора 2" type="bit" />
+				<signal address="32070.2" icsId="478" name="Температура сердечника статора фаза A" type="bit" />
+				<signal address="32070.3" icsId="479" name="Температура сердечника статора фаза B" type="bit" />
+				<signal address="32070.4" icsId="480" name="Температура сердечника статора фаза C" type="bit" />
+				<signal address="32070.5" icsId="481" name="Температура обмотки статора фаза A" type="bit" />
+				<signal address="32070.6" icsId="482" name="Температура обмотки статора фаза B" type="bit" />
+				<signal address="32070.7" icsId="483" name="Температура обмотки статора фаза C" type="bit" />
+				<signal address="32070.8" icsId="484" name="Резерв" type="bit" />
+				<signal address="32070.9" icsId="485" name="Резерв" type="bit" />
+				<signal address="32070.10" icsId="486" name="Резерв" type="bit" />
+				<signal address="32070.11" icsId="487" name="Резерв" type="bit" />
+				<signal address="32070.12" icsId="488" name="Резерв" type="bit" />
+				<signal address="32070.13" icsId="489" name="Резерв" type="bit" />
+				<signal address="32070.14" icsId="490" name="Резерв" type="bit" />
+				<signal address="32070.15" icsId="491" name="Резерв" type="bit" />
+				<signal address="32071.0" icsId="492" name="Резерв" type="bit" />
+				<signal address="32071.1" icsId="493" name="Резерв" type="bit" />
+				<signal address="32071.2" icsId="494" name="Резерв" type="bit" />
+				<signal address="32071.3" icsId="495" name="Резерв" type="bit" />
+				<signal address="32071.4" icsId="496" name="Резерв" type="bit" />
+				<signal address="32071.5" icsId="497" name="Резерв" type="bit" />
+				<signal address="32071.6" icsId="498" name="Резерв" type="bit" />
+				<signal address="32071.7" icsId="499" name="Резерв" type="bit" />
+				<signal address="32071.8" icsId="500" name="Резерв" type="bit" />
+				<signal address="32071.9" icsId="501" name="Резерв" type="bit" />
+				<signal address="32071.10" icsId="502" name="Резерв" type="bit" />
+				<signal address="32071.11" icsId="503" name="Резерв" type="bit" />
+				<signal address="32071.12" icsId="504" name="Резерв" type="bit" />
+				<signal address="32071.13" icsId="505" name="Резерв" type="bit" />
+				<signal address="32071.14" icsId="506" name="Резерв" type="bit" />
+				<signal address="32071.15" icsId="507" name="Частота вращения ДГ по трем/двум датчикам" type="bit" />
+				<signal address="32072.0" icsId="508" name="Уровень в промежуточном баке топлива (ПТБ)" type="bit" />
+				<signal address="32072.1" icsId="509" name="Уровень в расходном баке топлива (рабочем) (РТБ)" type="bit" />
+				<signal address="32072.2" icsId="510" name="Уровень в расходном баке топлива (резервном) (РТБ)" type="bit" />
+				<signal address="32072.3" icsId="511" name="Давление топлива на входе в дизель" type="bit" />
+				<signal address="32072.4" icsId="512" name="Перепад давления на ФТОТ" type="bit" />
+				<signal address="32072.5" icsId="513" name="Перепад давления на ФГОТ" type="bit" />
+				<signal address="32072.6" icsId="514" name="Резерв" type="bit" />
+				<signal address="32072.7" icsId="515" name="Резерв" type="bit" />
+				<signal address="32072.8" icsId="516" name="Уровень в расходном баке масла (рабочем) (РБМ)" type="bit" />
+				<signal address="32072.9" icsId="517" name="Уровень в расходном баке масла (резервном) (РБМ)" type="bit" />
+				<signal address="32072.10" icsId="518" name="Уровень масла в картере" type="bit" />
+				<signal address="32072.11" icsId="519" name="Давление масла на входе в дизель 1" type="bit" />
+				<signal address="32072.12" icsId="520" name="Давление масла на входе в дизель 2" type="bit" />
+				<signal address="32072.13" icsId="521" name="Давление масла на входе в дизель 3" type="bit" />
+				<signal address="32072.14" icsId="522" name="Температура масла на входе в дизель" type="bit" />
+				<signal address="32072.15" icsId="523" name="Температура масла на выходе из дизеля" type="bit" />
+				<signal address="32073.0" icsId="524" name="Уровень воды в расширительном баке (РБВ)" type="bit" />
+				<signal address="32073.1" icsId="525" name="Давление воды на входе в дизель холодного контура" type="bit" />
+				<signal address="32073.2" icsId="526" name="Давление воды на входе в дизель горячего контура" type="bit" />
+				<signal address="32073.3" icsId="527" name="Температура воды горячего контура на выходе из дизеля" type="bit" />
+				<signal address="32073.4" icsId="528" name="Температура воды в ЭНВ" type="bit" />
+				<signal address="32073.5" icsId="529" name="Уровень воды в баке водоподготовки (БВП)" type="bit" />
+				<signal address="32073.6" icsId="530" name="Резерв" type="bit" />
+				<signal address="32073.7" icsId="531" name="Резерв" type="bit" />
+				<signal address="32073.8" icsId="532" name="Давление сжатого воздуха в баллонах" type="bit" />
+				<signal address="32073.9" icsId="533" name="Резерв" type="bit" />
+				<signal address="32073.10" icsId="534" name="Резерв" type="bit" />
+				<signal address="32073.11" icsId="535" name="Резерв" type="bit" />
+				<signal address="32073.12" icsId="536" name="Частота вращения коленвала дизеля (1 канал)" type="bit" />
+				<signal address="32073.13" icsId="537" name="Частота вращения коленвала дизеля (2 канал)" type="bit" />
+				<signal address="32073.14" icsId="538" name="Резерв" type="bit" />
+				<signal address="32073.15" icsId="539" name="Активная мощность" type="bit" />
+				<signal address="32074.0" icsId="540" name="Температура выхлопных газов на выходе цилиндра A1" type="bit" />
+				<signal address="32074.1" icsId="541" name="Температура выхлопных газов на выходе цилиндра A2" type="bit" />
+				<signal address="32074.2" icsId="542" name="Температура выхлопных газов на выходе цилиндра A3" type="bit" />
+				<signal address="32074.3" icsId="543" name="Температура выхлопных газов на выходе цилиндра A4" type="bit" />
+				<signal address="32074.4" icsId="544" name="Температура выхлопных газов на выходе цилиндра A5" type="bit" />
+				<signal address="32074.5" icsId="545" name="Температура выхлопных газов на выходе цилиндра A6" type="bit" />
+				<signal address="32074.6" icsId="546" name="Температура выхлопных газов на выходе цилиндра A7" type="bit" />
+				<signal address="32074.7" icsId="547" name="Температура выхлопных газов на выходе цилиндра A8" type="bit" />
+				<signal address="32074.8" icsId="548" name="Температура выхлопных газов на выходе цилиндра A9" type="bit" />
+				<signal address="32074.9" icsId="549" name="Температура выхлопных газов на выходе цилиндра A10" type="bit" />
+				<signal address="32074.10" icsId="550" name="Резерв" type="bit" />
+				<signal address="32074.11" icsId="551" name="Резерв" type="bit" />
+				<signal address="32074.12" icsId="552" name="Резерв" type="bit" />
+				<signal address="32074.13" icsId="553" name="Резерв" type="bit" />
+				<signal address="32074.14" icsId="554" name="Резерв" type="bit" />
+				<signal address="32074.15" icsId="555" name="Резерв" type="bit" />
+				<signal address="32075.0" icsId="556" name="Температура выхлопных газов на выходе цилиндра B1" type="bit" />
+				<signal address="32075.1" icsId="557" name="Температура выхлопных газов на выходе цилиндра B2" type="bit" />
+				<signal address="32075.2" icsId="558" name="Температура выхлопных газов на выходе цилиндра B3" type="bit" />
+				<signal address="32075.3" icsId="559" name="Температура выхлопных газов на выходе цилиндра B4" type="bit" />
+				<signal address="32075.4" icsId="560" name="Температура выхлопных газов на выходе цилиндра B5" type="bit" />
+				<signal address="32075.5" icsId="561" name="Температура выхлопных газов на выходе цилиндра B6" type="bit" />
+				<signal address="32075.6" icsId="562" name="Температура выхлопных газов на выходе цилиндра B7" type="bit" />
+				<signal address="32075.7" icsId="563" name="Температура выхлопных газов на выходе цилиндра B8" type="bit" />
+				<signal address="32075.8" icsId="564" name="Температура выхлопных газов на выходе цилиндра B9" type="bit" />
+				<signal address="32075.9" icsId="565" name="Температура выхлопных газов на выходе цилиндра B10" type="bit" />
+				<signal address="32075.10" icsId="566" name="Резерв" type="bit" />
+				<signal address="32075.11" icsId="567" name="Резерв" type="bit" />
+				<signal address="32075.12" icsId="568" name="Резерв" type="bit" />
+				<signal address="32075.13" icsId="569" name="Резерв" type="bit" />
+				<signal address="32075.14" icsId="570" name="Резерв" type="bit" />
+				<signal address="32075.15" icsId="571" name="Резерв" type="bit" />
+				<signal address="32076.0" icsId="572" name="Температура подшипника генератора 1" type="bit" />
+				<signal address="32076.1" icsId="573" name="Температура подшипника генератора 2" type="bit" />
+				<signal address="32076.2" icsId="574" name="Температура сердечника статора фаза A" type="bit" />
+				<signal address="32076.3" icsId="575" name="Температура сердечника статора фаза B" type="bit" />
+				<signal address="32076.4" icsId="576" name="Температура сердечника статора фаза C" type="bit" />
+				<signal address="32076.5" icsId="577" name="Температура обмотки статора фаза A" type="bit" />
+				<signal address="32076.6" icsId="578" name="Температура обмотки статора фаза B" type="bit" />
+				<signal address="32076.7" icsId="579" name="Температура обмотки статора фаза C" type="bit" />
+				<signal address="32076.8" icsId="580" name="Резерв" type="bit" />
+				<signal address="32076.9" icsId="581" name="Резерв" type="bit" />
+				<signal address="32076.10" icsId="582" name="Резерв" type="bit" />
+				<signal address="32076.11" icsId="583" name="Резерв" type="bit" />
+				<signal address="32076.12" icsId="584" name="Резерв" type="bit" />
+				<signal address="32076.13" icsId="585" name="Резерв" type="bit" />
+				<signal address="32076.14" icsId="586" name="Резерв" type="bit" />
+				<signal address="32076.15" icsId="587" name="Резерв" type="bit" />
+				<signal address="32077.0" icsId="588" name="Резерв" type="bit" />
+				<signal address="32077.1" icsId="589" name="Резерв" type="bit" />
+				<signal address="32077.2" icsId="590" name="Резерв" type="bit" />
+				<signal address="32077.3" icsId="591" name="Резерв" type="bit" />
+				<signal address="32077.4" icsId="592" name="Резерв" type="bit" />
+				<signal address="32077.5" icsId="593" name="Резерв" type="bit" />
+				<signal address="32077.6" icsId="594" name="Резерв" type="bit" />
+				<signal address="32077.7" icsId="595" name="Резерв" type="bit" />
+				<signal address="32077.8" icsId="596" name="Резерв" type="bit" />
+				<signal address="32077.9" icsId="597" name="Резерв" type="bit" />
+				<signal address="32077.10" icsId="598" name="Резерв" type="bit" />
+				<signal address="32077.11" icsId="599" name="Резерв" type="bit" />
+				<signal address="32077.12" icsId="600" name="Резерв" type="bit" />
+				<signal address="32077.13" icsId="601" name="Резерв" type="bit" />
+				<signal address="32077.14" icsId="602" name="Резерв" type="bit" />
+				<signal address="32077.15" icsId="603" name="Частота вращения ДГ по трем/двум датчикам" type="bit" />
+				<signal address="32078.0" icsId="604" name="Уровень в промежуточном баке топлива (ПТБ)" type="bit" />
+				<signal address="32078.1" icsId="605" name="Уровень в расходном баке топлива (рабочем) (РТБ)" type="bit" />
+				<signal address="32078.2" icsId="606" name="Уровень в расходном баке топлива (резервном) (РТБ)" type="bit" />
+				<signal address="32078.3" icsId="607" name="Давление топлива на входе в дизель" type="bit" />
+				<signal address="32078.4" icsId="608" name="Перепад давления на ФТОТ" type="bit" />
+				<signal address="32078.5" icsId="609" name="Перепад давления на ФГОТ" type="bit" />
+				<signal address="32078.6" icsId="610" name="Резерв" type="bit" />
+				<signal address="32078.7" icsId="611" name="Резерв" type="bit" />
+				<signal address="32078.8" icsId="612" name="Уровень в расходном баке масла (рабочем) (РБМ)" type="bit" />
+				<signal address="32078.9" icsId="613" name="Уровень в расходном баке масла (резервном) (РБМ)" type="bit" />
+				<signal address="32078.10" icsId="614" name="Уровень масла в картере" type="bit" />
+				<signal address="32078.11" icsId="615" name="Давление масла на входе в дизель 1" type="bit" />
+				<signal address="32078.12" icsId="616" name="Давление масла на входе в дизель 2" type="bit" />
+				<signal address="32078.13" icsId="617" name="Давление масла на входе в дизель 3" type="bit" />
+				<signal address="32078.14" icsId="618" name="Температура масла на входе в дизель" type="bit" />
+				<signal address="32078.15" icsId="619" name="Температура масла на выходе из дизеля" type="bit" />
+				<signal address="32079.0" icsId="620" name="Уровень воды в расширительном баке (РБВ)" type="bit" />
+				<signal address="32079.1" icsId="621" name="Давление воды на входе в дизель холодного контура" type="bit" />
+				<signal address="32079.2" icsId="622" name="Давление воды на входе в дизель горячего контура" type="bit" />
+				<signal address="32079.3" icsId="623" name="Температура воды горячего контура на выходе из дизеля" type="bit" />
+				<signal address="32079.4" icsId="624" name="Температура воды в ЭНВ" type="bit" />
+				<signal address="32079.5" icsId="625" name="Уровень воды в баке водоподготовки (БВП)" type="bit" />
+				<signal address="32079.6" icsId="626" name="Резерв" type="bit" />
+				<signal address="32079.7" icsId="627" name="Резерв" type="bit" />
+				<signal address="32079.8" icsId="628" name="Давление сжатого воздуха в баллонах" type="bit" />
+				<signal address="32079.9" icsId="629" name="Резерв" type="bit" />
+				<signal address="32079.10" icsId="630" name="Резерв" type="bit" />
+				<signal address="32079.11" icsId="631" name="Резерв" type="bit" />
+				<signal address="32079.12" icsId="632" name="Частота вращения коленвала дизеля (1 канал)" type="bit" />
+				<signal address="32079.13" icsId="633" name="Частота вращения коленвала дизеля (2 канал)" type="bit" />
+				<signal address="32079.14" icsId="634" name="Резерв" type="bit" />
+				<signal address="32079.15" icsId="635" name="Активная мощность" type="bit" />
+				<signal address="32080.0" icsId="636" name="Резерв" type="bit" />
+				<signal address="32080.1" icsId="637" name="Резерв" type="bit" />
+				<signal address="32080.2" icsId="638" name="Резерв" type="bit" />
+				<signal address="32080.3" icsId="639" name="Резерв" type="bit" />
+				<signal address="32080.4" icsId="640" name="Резерв" type="bit" />
+				<signal address="32080.5" icsId="641" name="Резерв" type="bit" />
+				<signal address="32080.6" icsId="642" name="Резерв" type="bit" />
+				<signal address="32080.7" icsId="643" name="Резерв" type="bit" />
+				<signal address="32080.8" icsId="644" name="Резерв" type="bit" />
+				<signal address="32080.9" icsId="645" name="Резерв" type="bit" />
+				<signal address="32080.10" icsId="646" name="Резерв" type="bit" />
+				<signal address="32080.11" icsId="647" name="Резерв" type="bit" />
+				<signal address="32080.12" icsId="648" name="Резерв" type="bit" />
+				<signal address="32080.13" icsId="649" name="Резерв" type="bit" />
+				<signal address="32080.14" icsId="650" name="Резерв" type="bit" />
+				<signal address="32080.15" icsId="651" name="Резерв" type="bit" />
+				<signal address="32081.0" icsId="652" name="Резерв" type="bit" />
+				<signal address="32081.1" icsId="653" name="Резерв" type="bit" />
+				<signal address="32081.2" icsId="654" name="Резерв" type="bit" />
+				<signal address="32081.3" icsId="655" name="Резерв" type="bit" />
+				<signal address="32081.4" icsId="656" name="Резерв" type="bit" />
+				<signal address="32081.5" icsId="657" name="Резерв" type="bit" />
+				<signal address="32081.6" icsId="658" name="Резерв" type="bit" />
+				<signal address="32081.7" icsId="659" name="Резерв" type="bit" />
+				<signal address="32081.8" icsId="660" name="Резерв" type="bit" />
+				<signal address="32081.9" icsId="661" name="Резерв" type="bit" />
+				<signal address="32081.10" icsId="662" name="Резерв" type="bit" />
+				<signal address="32081.11" icsId="663" name="Резерв" type="bit" />
+				<signal address="32081.12" icsId="664" name="Резерв" type="bit" />
+				<signal address="32081.13" icsId="665" name="Резерв" type="bit" />
+				<signal address="32081.14" icsId="666" name="Резерв" type="bit" />
+				<signal address="32081.15" icsId="667" name="Резерв" type="bit" />
+				<signal address="32082.0" icsId="668" name="Температура подшипника генератора 1" type="bit" />
+				<signal address="32082.1" icsId="669" name="Температура подшипника генератора 2" type="bit" />
+				<signal address="32082.2" icsId="670" name="Температура сердечника статора фаза A" type="bit" />
+				<signal address="32082.3" icsId="671" name="Температура сердечника статора фаза B" type="bit" />
+				<signal address="32082.4" icsId="672" name="Температура сердечника статора фаза C" type="bit" />
+				<signal address="32082.5" icsId="673" name="Температура обмотки статора фаза A" type="bit" />
+				<signal address="32082.6" icsId="674" name="Температура обмотки статора фаза B" type="bit" />
+				<signal address="32082.7" icsId="675" name="Температура обмотки статора фаза C" type="bit" />
+				<signal address="32082.8" icsId="676" name="Резерв" type="bit" />
+				<signal address="32082.9" icsId="677" name="Резерв" type="bit" />
+				<signal address="32082.10" icsId="678" name="Резерв" type="bit" />
+				<signal address="32082.11" icsId="679" name="Резерв" type="bit" />
+				<signal address="32082.12" icsId="680" name="Резерв" type="bit" />
+				<signal address="32082.13" icsId="681" name="Резерв" type="bit" />
+				<signal address="32082.14" icsId="682" name="Резерв" type="bit" />
+				<signal address="32082.15" icsId="683" name="Резерв" type="bit" />
+				<signal address="32083.0" icsId="684" name="Резерв" type="bit" />
+				<signal address="32083.1" icsId="685" name="Резерв" type="bit" />
+				<signal address="32083.2" icsId="686" name="Резерв" type="bit" />
+				<signal address="32083.3" icsId="687" name="Резерв" type="bit" />
+				<signal address="32083.4" icsId="688" name="Резерв" type="bit" />
+				<signal address="32083.5" icsId="689" name="Резерв" type="bit" />
+				<signal address="32083.6" icsId="690" name="Резерв" type="bit" />
+				<signal address="32083.7" icsId="691" name="Резерв" type="bit" />
+				<signal address="32083.8" icsId="692" name="Резерв" type="bit" />
+				<signal address="32083.9" icsId="693" name="Резерв" type="bit" />
+				<signal address="32083.10" icsId="694" name="Резерв" type="bit" />
+				<signal address="32083.11" icsId="695" name="Резерв" type="bit" />
+				<signal address="32083.12" icsId="696" name="Резерв" type="bit" />
+				<signal address="32083.13" icsId="697" name="Резерв" type="bit" />
+				<signal address="32083.14" icsId="698" name="Резерв" type="bit" />
+				<signal address="32083.15" icsId="699" name="Частота вращения ДГ по трем/двум датчикам" type="bit" />
+				<signal address="32084.0" icsId="700" name="Уровень в промежуточном баке топлива (ПТБ)" type="bit" />
+				<signal address="32084.1" icsId="701" name="Уровень в расходном баке топлива (рабочем) (РТБ)" type="bit" />
+				<signal address="32084.2" icsId="702" name="Уровень в расходном баке топлива (резервном) (РТБ)" type="bit" />
+				<signal address="32084.3" icsId="703" name="Давление топлива на входе в дизель" type="bit" />
+				<signal address="32084.4" icsId="704" name="Перепад давления на ФТОТ" type="bit" />
+				<signal address="32084.5" icsId="705" name="Перепад давления на ФГОТ" type="bit" />
+				<signal address="32084.6" icsId="706" name="Резерв" type="bit" />
+				<signal address="32084.7" icsId="707" name="Резерв" type="bit" />
+				<signal address="32084.8" icsId="708" name="Уровень в расходном баке масла (рабочем) (РБМ)" type="bit" />
+				<signal address="32084.9" icsId="709" name="Уровень в расходном баке масла (резервном) (РБМ)" type="bit" />
+				<signal address="32084.10" icsId="710" name="Уровень масла в картере" type="bit" />
+				<signal address="32084.11" icsId="711" name="Давление масла на входе в дизель 1" type="bit" />
+				<signal address="32084.12" icsId="712" name="Давление масла на входе в дизель 2" type="bit" />
+				<signal address="32084.13" icsId="713" name="Давление масла на входе в дизель 3" type="bit" />
+				<signal address="32084.14" icsId="714" name="Температура масла на входе в дизель" type="bit" />
+				<signal address="32084.15" icsId="715" name="Температура масла на выходе из дизеля" type="bit" />
+				<signal address="32085.0" icsId="716" name="Уровень воды в расширительном баке (РБВ)" type="bit" />
+				<signal address="32085.1" icsId="717" name="Давление воды на входе в дизель холодного контура" type="bit" />
+				<signal address="32085.2" icsId="718" name="Давление воды на входе в дизель горячего контура" type="bit" />
+				<signal address="32085.3" icsId="719" name="Температура воды горячего контура на выходе из дизеля" type="bit" />
+				<signal address="32085.4" icsId="720" name="Температура воды в ЭНВ" type="bit" />
+				<signal address="32085.5" icsId="721" name="Уровень воды в баке водоподготовки (БВП)" type="bit" />
+				<signal address="32085.6" icsId="722" name="Резерв" type="bit" />
+				<signal address="32085.7" icsId="723" name="Резерв" type="bit" />
+				<signal address="32085.8" icsId="724" name="Давление сжатого воздуха в баллонах" type="bit" />
+				<signal address="32085.9" icsId="725" name="Резерв" type="bit" />
+				<signal address="32085.10" icsId="726" name="Резерв" type="bit" />
+				<signal address="32085.11" icsId="727" name="Резерв" type="bit" />
+				<signal address="32085.12" icsId="728" name="Частота вращения коленвала дизеля (1 канал)" type="bit" />
+				<signal address="32085.13" icsId="729" name="Частота вращения коленвала дизеля (2 канал)" type="bit" />
+				<signal address="32085.14" icsId="730" name="Резерв" type="bit" />
+				<signal address="32085.15" icsId="731" name="Активная мощность" type="bit" />
+				<signal address="32086.0" icsId="732" name="Резерв" type="bit" />
+				<signal address="32086.1" icsId="733" name="Резерв" type="bit" />
+				<signal address="32086.2" icsId="734" name="Резерв" type="bit" />
+				<signal address="32086.3" icsId="735" name="Резерв" type="bit" />
+				<signal address="32086.4" icsId="736" name="Резерв" type="bit" />
+				<signal address="32086.5" icsId="737" name="Резерв" type="bit" />
+				<signal address="32086.6" icsId="738" name="Резерв" type="bit" />
+				<signal address="32086.7" icsId="739" name="Резерв" type="bit" />
+				<signal address="32086.8" icsId="740" name="Резерв" type="bit" />
+				<signal address="32086.9" icsId="741" name="Резерв" type="bit" />
+				<signal address="32086.10" icsId="742" name="Резерв" type="bit" />
+				<signal address="32086.11" icsId="743" name="Резерв" type="bit" />
+				<signal address="32086.12" icsId="744" name="Резерв" type="bit" />
+				<signal address="32086.13" icsId="745" name="Резерв" type="bit" />
+				<signal address="32086.14" icsId="746" name="Резерв" type="bit" />
+				<signal address="32086.15" icsId="747" name="Резерв" type="bit" />
+				<signal address="32087.0" icsId="748" name="Резерв" type="bit" />
+				<signal address="32087.1" icsId="749" name="Резерв" type="bit" />
+				<signal address="32087.2" icsId="750" name="Резерв" type="bit" />
+				<signal address="32087.3" icsId="751" name="Резерв" type="bit" />
+				<signal address="32087.4" icsId="752" name="Резерв" type="bit" />
+				<signal address="32087.5" icsId="753" name="Резерв" type="bit" />
+				<signal address="32087.6" icsId="754" name="Резерв" type="bit" />
+				<signal address="32087.7" icsId="755" name="Резерв" type="bit" />
+				<signal address="32087.8" icsId="756" name="Резерв" type="bit" />
+				<signal address="32087.9" icsId="757" name="Резерв" type="bit" />
+				<signal address="32087.10" icsId="758" name="Резерв" type="bit" />
+				<signal address="32087.11" icsId="759" name="Резерв" type="bit" />
+				<signal address="32087.12" icsId="760" name="Резерв" type="bit" />
+				<signal address="32087.13" icsId="761" name="Резерв" type="bit" />
+				<signal address="32087.14" icsId="762" name="Резерв" type="bit" />
+				<signal address="32087.15" icsId="763" name="Резерв" type="bit" />
+				<signal address="32088.0" icsId="764" name="Температура подшипника генератора 1" type="bit" />
+				<signal address="32088.1" icsId="765" name="Температура подшипника генератора 2" type="bit" />
+				<signal address="32088.2" icsId="766" name="Температура сердечника статора фаза A" type="bit" />
+				<signal address="32088.3" icsId="767" name="Температура сердечника статора фаза B" type="bit" />
+				<signal address="32088.4" icsId="768" name="Температура сердечника статора фаза C" type="bit" />
+				<signal address="32088.5" icsId="769" name="Температура обмотки статора фаза A" type="bit" />
+				<signal address="32088.6" icsId="770" name="Температура обмотки статора фаза B" type="bit" />
+				<signal address="32088.7" icsId="771" name="Температура обмотки статора фаза C" type="bit" />
+				<signal address="32088.8" icsId="772" name="Резерв" type="bit" />
+				<signal address="32088.9" icsId="773" name="Резерв" type="bit" />
+				<signal address="32088.10" icsId="774" name="Резерв" type="bit" />
+				<signal address="32088.11" icsId="775" name="Резерв" type="bit" />
+				<signal address="32088.12" icsId="776" name="Резерв" type="bit" />
+				<signal address="32088.13" icsId="777" name="Резерв" type="bit" />
+				<signal address="32088.14" icsId="778" name="Резерв" type="bit" />
+				<signal address="32088.15" icsId="779" name="Резерв" type="bit" />
+				<signal address="32089.0" icsId="780" name="Резерв" type="bit" />
+				<signal address="32089.1" icsId="781" name="Резерв" type="bit" />
+				<signal address="32089.2" icsId="782" name="Резерв" type="bit" />
+				<signal address="32089.3" icsId="783" name="Резерв" type="bit" />
+				<signal address="32089.4" icsId="784" name="Резерв" type="bit" />
+				<signal address="32089.5" icsId="785" name="Резерв" type="bit" />
+				<signal address="32089.6" icsId="786" name="Резерв" type="bit" />
+				<signal address="32089.7" icsId="787" name="Резерв" type="bit" />
+				<signal address="32089.8" icsId="788" name="Резерв" type="bit" />
+				<signal address="32089.9" icsId="789" name="Резерв" type="bit" />
+				<signal address="32089.10" icsId="790" name="Резерв" type="bit" />
+				<signal address="32089.11" icsId="791" name="Резерв" type="bit" />
+				<signal address="32089.12" icsId="792" name="Резерв" type="bit" />
+				<signal address="32089.13" icsId="793" name="Резерв" type="bit" />
+				<signal address="32089.14" icsId="794" name="Резерв" type="bit" />
+				<signal address="32089.15" icsId="795" name="Частота вращения ДГ по трем/двум датчикам" type="bit" />
+				<signal address="32100.0" icsId="796" name="Уровень в промежуточном баке топлива (ПТБ)" type="bit" />
+				<signal address="32100.1" icsId="797" name="Уровень в расходном баке топлива (рабочем) (РТБ)" type="bit" />
+				<signal address="32100.2" icsId="798" name="Уровень в расходном баке топлива (резервном) (РТБ)" type="bit" />
+				<signal address="32100.3" icsId="799" name="Давление топлива на входе в дизель" type="bit" />
+				<signal address="32100.4" icsId="800" name="Перепад давления на ФТОТ" type="bit" />
+				<signal address="32100.5" icsId="801" name="Перепад давления на ФГОТ" type="bit" />
+				<signal address="32100.6" icsId="802" name="Резерв" type="bit" />
+				<signal address="32100.7" icsId="803" name="Резерв" type="bit" />
+				<signal address="32100.8" icsId="804" name="Уровень в расходном баке масла (рабочем) (РБМ)" type="bit" />
+				<signal address="32100.9" icsId="805" name="Уровень в расходном баке масла (резервном) (РБМ)" type="bit" />
+				<signal address="32100.10" icsId="806" name="Уровень масла в картере" type="bit" />
+				<signal address="32100.11" icsId="807" name="Давление масла на входе в дизель 1" type="bit" />
+				<signal address="32100.12" icsId="808" name="Давление масла на входе в дизель 2" type="bit" />
+				<signal address="32100.13" icsId="809" name="Давление масла на входе в дизель 3" type="bit" />
+				<signal address="32100.14" icsId="810" name="Температура масла на входе в дизель" type="bit" />
+				<signal address="32100.15" icsId="811" name="Температура масла на выходе из дизеля" type="bit" />
+				<signal address="32101.0" icsId="812" name="Уровень воды в расширительном баке (РБВ)" type="bit" />
+				<signal address="32101.1" icsId="813" name="Давление воды на входе в дизель холодного контура" type="bit" />
+				<signal address="32101.2" icsId="814" name="Давление воды на входе в дизель горячего контура" type="bit" />
+				<signal address="32101.3" icsId="815" name="Температура воды горячего контура на выходе из дизеля" type="bit" />
+				<signal address="32101.4" icsId="816" name="Температура воды в ЭНВ" type="bit" />
+				<signal address="32101.5" icsId="817" name="Уровень воды в баке водоподготовки (БВП)" type="bit" />
+				<signal address="32101.6" icsId="818" name="Резерв" type="bit" />
+				<signal address="32101.7" icsId="819" name="Резерв" type="bit" />
+				<signal address="32101.8" icsId="820" name="Давление сжатого воздуха в баллонах" type="bit" />
+				<signal address="32101.9" icsId="821" name="Резерв" type="bit" />
+				<signal address="32101.10" icsId="822" name="Резерв" type="bit" />
+				<signal address="32101.11" icsId="823" name="Резерв" type="bit" />
+				<signal address="32101.12" icsId="824" name="Частота вращения коленвала дизеля (1 канал)" type="bit" />
+				<signal address="32101.13" icsId="825" name="Частота вращения коленвала дизеля (2 канал)" type="bit" />
+				<signal address="32101.14" icsId="826" name="Резерв" type="bit" />
+				<signal address="32101.15" icsId="827" name="Активная мощность" type="bit" />
+				<signal address="32102.0" icsId="828" name="Температура выхлопных газов на выходе цилиндра A1" type="bit" />
+				<signal address="32102.1" icsId="829" name="Температура выхлопных газов на выходе цилиндра A2" type="bit" />
+				<signal address="32102.2" icsId="830" name="Температура выхлопных газов на выходе цилиндра A3" type="bit" />
+				<signal address="32102.3" icsId="831" name="Температура выхлопных газов на выходе цилиндра A4" type="bit" />
+				<signal address="32102.4" icsId="832" name="Температура выхлопных газов на выходе цилиндра A5" type="bit" />
+				<signal address="32102.5" icsId="833" name="Температура выхлопных газов на выходе цилиндра A6" type="bit" />
+				<signal address="32102.6" icsId="834" name="Температура выхлопных газов на выходе цилиндра A7" type="bit" />
+				<signal address="32102.7" icsId="835" name="Температура выхлопных газов на выходе цилиндра A8" type="bit" />
+				<signal address="32102.8" icsId="836" name="Температура выхлопных газов на выходе цилиндра A9" type="bit" />
+				<signal address="32102.9" icsId="837" name="Температура выхлопных газов на выходе цилиндра A10" type="bit" />
+				<signal address="32102.10" icsId="838" name="Резерв" type="bit" />
+				<signal address="32102.11" icsId="839" name="Резерв" type="bit" />
+				<signal address="32102.12" icsId="840" name="Резерв" type="bit" />
+				<signal address="32102.13" icsId="841" name="Резерв" type="bit" />
+				<signal address="32102.14" icsId="842" name="Резерв" type="bit" />
+				<signal address="32102.15" icsId="843" name="Резерв" type="bit" />
+				<signal address="32103.0" icsId="844" name="Температура выхлопных газов на выходе цилиндра B1" type="bit" />
+				<signal address="32103.1" icsId="845" name="Температура выхлопных газов на выходе цилиндра B2" type="bit" />
+				<signal address="32103.2" icsId="846" name="Температура выхлопных газов на выходе цилиндра B3" type="bit" />
+				<signal address="32103.3" icsId="847" name="Температура выхлопных газов на выходе цилиндра B4" type="bit" />
+				<signal address="32103.4" icsId="848" name="Температура выхлопных газов на выходе цилиндра B5" type="bit" />
+				<signal address="32103.5" icsId="849" name="Температура выхлопных газов на выходе цилиндра B6" type="bit" />
+				<signal address="32103.6" icsId="850" name="Температура выхлопных газов на выходе цилиндра B7" type="bit" />
+				<signal address="32103.7" icsId="851" name="Температура выхлопных газов на выходе цилиндра B8" type="bit" />
+				<signal address="32103.8" icsId="852" name="Температура выхлопных газов на выходе цилиндра B9" type="bit" />
+				<signal address="32103.9" icsId="853" name="Температура выхлопных газов на выходе цилиндра B10" type="bit" />
+				<signal address="32103.10" icsId="854" name="Резерв" type="bit" />
+				<signal address="32103.11" icsId="855" name="Резерв" type="bit" />
+				<signal address="32103.12" icsId="856" name="Резерв" type="bit" />
+				<signal address="32103.13" icsId="857" name="Резерв" type="bit" />
+				<signal address="32103.14" icsId="858" name="Резерв" type="bit" />
+				<signal address="32103.15" icsId="859" name="Резерв" type="bit" />
+				<signal address="32104.0" icsId="860" name="Температура подшипника генератора 1" type="bit" />
+				<signal address="32104.1" icsId="861" name="Температура подшипника генератора 2" type="bit" />
+				<signal address="32104.2" icsId="862" name="Температура сердечника статора фаза A" type="bit" />
+				<signal address="32104.3" icsId="863" name="Температура сердечника статора фаза B" type="bit" />
+				<signal address="32104.4" icsId="864" name="Температура сердечника статора фаза C" type="bit" />
+				<signal address="32104.5" icsId="865" name="Температура обмотки статора фаза A" type="bit" />
+				<signal address="32104.6" icsId="866" name="Температура обмотки статора фаза B" type="bit" />
+				<signal address="32104.7" icsId="867" name="Температура обмотки статора фаза C" type="bit" />
+				<signal address="32104.8" icsId="868" name="Резерв" type="bit" />
+				<signal address="32104.9" icsId="869" name="Резерв" type="bit" />
+				<signal address="32104.10" icsId="870" name="Резерв" type="bit" />
+				<signal address="32104.11" icsId="871" name="Резерв" type="bit" />
+				<signal address="32104.12" icsId="872" name="Резерв" type="bit" />
+				<signal address="32104.13" icsId="873" name="Резерв" type="bit" />
+				<signal address="32104.14" icsId="874" name="Резерв" type="bit" />
+				<signal address="32104.15" icsId="875" name="Резерв" type="bit" />
+				<signal address="32105.0" icsId="876" name="Резерв" type="bit" />
+				<signal address="32105.1" icsId="877" name="Резерв" type="bit" />
+				<signal address="32105.2" icsId="878" name="Резерв" type="bit" />
+				<signal address="32105.3" icsId="879" name="Резерв" type="bit" />
+				<signal address="32105.4" icsId="880" name="Резерв" type="bit" />
+				<signal address="32105.5" icsId="881" name="Резерв" type="bit" />
+				<signal address="32105.6" icsId="882" name="Резерв" type="bit" />
+				<signal address="32105.7" icsId="883" name="Резерв" type="bit" />
+				<signal address="32105.8" icsId="884" name="Резерв" type="bit" />
+				<signal address="32105.9" icsId="885" name="Резерв" type="bit" />
+				<signal address="32105.10" icsId="886" name="Резерв" type="bit" />
+				<signal address="32105.11" icsId="887" name="Резерв" type="bit" />
+				<signal address="32105.12" icsId="888" name="Резерв" type="bit" />
+				<signal address="32105.13" icsId="889" name="Резерв" type="bit" />
+				<signal address="32105.14" icsId="890" name="Резерв" type="bit" />
+				<signal address="32105.15" icsId="891" name="Частота вращения ДГ по трем/двум датчикам" type="bit" />
+				<signal address="32090.0" icsId="892" name="Уровень топлива в промежуточном баке выше допустимого" type="bit" />
+				<signal address="32090.1" icsId="893" name="Уровень топлива в промежуточном баке ниже допустимого" type="bit" />
+				<signal address="32090.2" icsId="894" name="Уровень топлива в расходном баке ниже допустимого" type="bit" />
+				<signal address="32090.3" icsId="895" name="Утечка топлива в ряде А" type="bit" />
+				<signal address="32090.4" icsId="896" name="Утечка топлива в ряде B" type="bit" />
+				<signal address="32090.5" icsId="897" name="Низкое давление топлива на входе в дизель" type="bit" />
+				<signal address="32090.6" icsId="898" name="Загрязнение фильтра тонкой очистки топлива" type="bit" />
+				<signal address="32090.7" icsId="899" name="Загрязнение фильтра грубой очистки топлива" type="bit" />
+				<signal address="32090.8" icsId="900" name="Уровень в расходном баке масла выше допустимого" type="bit" />
+				<signal address="32090.9" icsId="901" name="Уровень в расходном баке масла ниже допустимого" type="bit" />
+				<signal address="32090.10" icsId="902" name="Уровень масла в картере ниже допустимого" type="bit" />
+				<signal address="32090.11" icsId="903" name="Давление масла на входе в дизель ниже допустимого" type="bit" />
+				<signal address="32090.12" icsId="904" name="Температура масла на входе в дизель выше допустимого" type="bit" />
+				<signal address="32090.13" icsId="905" name="Температура масла на выходе из дизеля выше допустимого" type="bit" />
+				<signal address="32090.14" icsId="906" name="Загрязнение фильтра масла" type="bit" />
+				<signal address="32090.15" icsId="907" name="Уровень воды в расширительном баке ниже допустимого" type="bit" />
+				<signal address="32091.0" icsId="908" name="Критически низкий уровень воды в расширительном баке" type="bit" />
+				<signal address="32091.1" icsId="909" name="Низкое давление воды холодного контура на входе в дизель" type="bit" />
+				<signal address="32091.2" icsId="910" name="Низкое давление воды горячего контура на входе в дизель" type="bit" />
+				<signal address="32091.3" icsId="911" name="Высокая температура воды горячего контура на выходе дизеля" type="bit" />
+				<signal address="32091.4" icsId="912" name="Критически высокая температура воды горячего контура на выходе дизеля" type="bit" />
+				<signal address="32091.5" icsId="913" name="Низкий уровень в баке водоподготовки" type="bit" />
+				<signal address="32091.6" icsId="914" name="Низкое давление воздуха в пусковых баллонах" type="bit" />
+				<signal address="32091.7" icsId="915" name="Температура выхлопных газов выше допустимого" type="bit" />
+				<signal address="32091.8" icsId="916" name="Критически высокая температура воды в ЭНВ" type="bit" />
+				<signal address="32091.9" icsId="917" name="Температура обмоток статора выше допустимого" type="bit" />
+				<signal address="32091.10" icsId="918" name="Критически высокая температура обмоток статора" type="bit" />
+				<signal address="32091.11" icsId="919" name="Температура сердечника статора выше допустимого" type="bit" />
+				<signal address="32091.12" icsId="920" name="Температура подшипников генератора выше допустимого" type="bit" />
+				<signal address="32091.13" icsId="921" name="Критически высокая температура подшипников генератора" type="bit" />
+				<signal address="32092.0" icsId="922" name="Автоматический режим топливоподкачивающих насосов отключен" type="bit" />
+				<signal address="32092.1" icsId="923" name="Автоматический режим работы системы горячего резерва отключен" type="bit" />
+				<signal address="32092.2" icsId="924" name="Автоматический режим насоса закачки масла отключен" type="bit" />
+				<signal address="32092.3" icsId="925" name="Автоматический режим насоса подачи воды в систему отключен" type="bit" />
+				<signal address="32092.4" icsId="926" name="Автомат питания насоса топливоподкачивающего 1 отключен" type="bit" />
+				<signal address="32092.5" icsId="927" name="Автомат питания насоса топливоподкачивающего 2 отключен" type="bit" />
+				<signal address="32092.6" icsId="928" name="Автомат питания насоса закачки масла отключен" type="bit" />
+				<signal address="32092.7" icsId="929" name="Автомат питания насоса подачи воды в систему отключен" type="bit" />
+				<signal address="32092.8" icsId="930" name="Автомат питания насоса воды горячего резерва отключен" type="bit" />
+				<signal address="32092.9" icsId="931" name="Автомат питания насоса прокачки масла отключен" type="bit" />
+				<signal address="32092.10" icsId="932" name="Неисправность компрессора воздушного" type="bit" />
+				<signal address="32092.11" icsId="933" name="Земля в цепях питания" type="bit" />
+				<signal address="42000" icsId="934" name="Превышение частоты вращения коленвала ДГ , об/мин" type="float" />
+				<signal address="42002" icsId="935" name="резерв" type="float" />
+				<signal address="42004" icsId="936" name="резерв" type="float" />
+				<signal address="42006" icsId="937" name="Отключение насосов топливоподкачивающих (НТП1 и НТП2) (Отключение насосов заполнения РБТ), мм" type="float" />
+				<signal address="42008" icsId="938" name="Включение насоса топливоподкачивающего 1 (НТП1) (Включение насоса 1 заполнения РБТ), мм" type="float" />
+				<signal address="42010" icsId="939" name="Включение насоса топливоподкачивающего 2 (НТП2) (Включение насоса 2 заполнения РБТ), мм" type="float" />
+				<signal address="42012" icsId="940" name="Уровень в РТБ ниже допустимого, мм" type="float" />
+				<signal address="42014" icsId="941" name="Уровень в ПТБ выше допустимого , мм" type="float" />
+				<signal address="42016" icsId="942" name="Уровень в ПТБ ниже допустимого, мм" type="float" />
+				<signal address="42018" icsId="943" name="Низкое давление топлива на входе в дизель , МПа" type="float" />
+				<signal address="42020" icsId="944" name="Загрязнение фильтра тонкой очистки топлива, МПа" type="float" />
+				<signal address="42022" icsId="945" name="Загрязнение фильтра грубой очистки топлива, МПа" type="float" />
+				<signal address="42024" icsId="946" name="Закрытие клапана долива топлива (КДТ), мм" type="float" />
+				<signal address="42026" icsId="947" name="Открытие клапана долива топлива (КДТ), мм " type="float" />
+				<signal address="42028" icsId="948" name="резерв" type="float" />
+				<signal address="42030" icsId="949" name="резерв" type="float" />
+				<signal address="42032" icsId="950" name="Уровень в РБМ выше допустимого, мм" type="float" />
+				<signal address="42034" icsId="951" name="Уровень в РБМ ниже допустимого, мм" type="float" />
+				<signal address="42036" icsId="952" name="Отключение насоса закачки масла (НЗМ), мм" type="float" />
+				<signal address="42038" icsId="953" name="Включение насоса закачки масла (НЗМ), мм" type="float" />
+				<signal address="42040" icsId="954" name="Уровень масла в картере ниже допустимого, мм " type="float" />
+				<signal address="42042" icsId="955" name="Давление масла на входе в дизель ниже допустимого, МПа" type="float" />
+				<signal address="42044" icsId="956" name="Давление масла на входе в дизель ниже допустимого (Критически низкое давление масла на входе в дизель), МПа" type="float" />
+				<signal address="42046" icsId="957" name="Температура масла на входе в дизель выше допустимого (Высокая температура масла на входе в дизель), °C" type="float" />
+				<signal address="42048" icsId="958" name="Температура масла на выходе из дизеля выше допустимого (Критически высокая температура масла на выходе из дизеля), °C" type="float" />
+				<signal address="42050" icsId="959" name="резерв" type="float" />
+				<signal address="42052" icsId="960" name="резерв" type="float" />
+				<signal address="42054" icsId="961" name="Отключение Горячего резерва (Отключение системы горячего резерва), °C" type="float" />
+				<signal address="42056" icsId="962" name="Включение Горячего резерва (Включение системы горячего резерва), °C" type="float" />
+				<signal address="42058" icsId="963" name="резерв" type="float" />
+				<signal address="42060" icsId="964" name="резерв" type="float" />
+				<signal address="42062" icsId="965" name="Низкий уровень в баке водоподготовки (БВП), мм" type="float" />
+				<signal address="42064" icsId="966" name="Отключение насосов подачи воды в систему (НПВ) (Отключение насоса подачи воды), мм" type="float" />
+				<signal address="42066" icsId="967" name="Включение насосов подачи воды в систему (НПВ) (Включение насоса подачи воды), мм" type="float" />
+				<signal address="42068" icsId="968" name="Уровень в РБВ ниже допустимого (Уровень воды в РБВ ниже допустимого), мм" type="float" />
+				<signal address="42070" icsId="969" name="Блокировка Горячего резерва (Критически низкий уровень воды в РБВ), мм" type="float" />
+				<signal address="42072" icsId="970" name="Высокая температура воды горячего контура на выходе (Высокая температура воды ГК на выходе из дизеля), °C" type="float" />
+				<signal address="42074" icsId="971" name="Критически высокая температура воды горячего контура (Критически высокая температура воды ГК на выходе из дизеля), °C" type="float" />
+				<signal address="42076" icsId="972" name="Отключение электронагревателя воды (ЭНВ) (Критически высокая температура в ЭНВ), °C" type="float" />
+				<signal address="42078" icsId="973" name="Низкое давление воды холодного контура на входе в дизель (Низкое давление воды на входе в дизель ХК), МПа" type="float" />
+				<signal address="42080" icsId="974" name="Низкое давление воды горячего контура на входе в дизель (Низкое давление воды на входе в дизель ГК), МПа" type="float" />
+				<signal address="42082" icsId="975" name="резерв" type="float" />
+				<signal address="42084" icsId="976" name="резерв" type="float" />
+				<signal address="42086" icsId="977" name="Включение компрессора воздушного (КВ), МПа" type="float" />
+				<signal address="42088" icsId="978" name="Отключение компрессора воздушного (КВ), МПа" type="float" />
+				<signal address="42090" icsId="979" name="Низкое давление воздуха в пусковых баллонах (Давление в баллонах пускового воздуха ниже допустимого), МПа" type="float" />
+				<signal address="42092" icsId="980" name="резерв" type="float" />
+				<signal address="42094" icsId="981" name="резерв" type="float" />
+				<signal address="42096" icsId="982" name="Температура выхлопных газов * выше допустимого (Температура выхлопных газов в цилиндрах выше допустимого), °C" type="float" />
+				<signal address="42098" icsId="983" name="резерв" type="float" />
+				<signal address="42100" icsId="984" name="резерв" type="float" />
+				<signal address="42102" icsId="985" name="Температура обмотки статора выше допустимого, °C" type="float" />
+				<signal address="42104" icsId="986" name="Критически высокая температура обмотки статора, °C" type="float" />
+				<signal address="42106" icsId="987" name="Температура сердечника статора выше допустимого, °C" type="float" />
+				<signal address="42108" icsId="988" name="Температура подшипников генератра выше допустимого, °C" type="float" />
+				<signal address="42110" icsId="989" name="Критически высокая температура подшипников генератора, °C" type="float" />
+				<signal address="42112" icsId="990" name="резерв" type="float" />
+				<signal address="42114" icsId="991" name="резерв" type="float" />
+				<signal address="42116" icsId="992" name="Ввод защиты по маслу, c" type="float" />
+				<signal address="42118" icsId="993" name="Несостоявшийся пуск (Fвращ <180 об/мин), c" type="float" />
+				<signal address="42120" icsId="994" name="Незавершенный пуск (нет сигнала 95%U, F), c" type="float" />
+				<signal address="42122" icsId="995" name="Включение клапана приемистости, c" type="float" />
+				<signal address="42124" icsId="996" name="Контроль включения/отключения ВГ, c" type="float" />
+				<signal address="42126" icsId="997" name="Время расхолаживания ДГ, c" type="float" />
+				<signal address="42128" icsId="998" name="Контроль времени останова, c" type="float" />
+				<signal address="42130" icsId="999" name="Время работы НПМ после нормального останова, c" type="float" />
+				<signal address="42132" icsId="1000" name="Включение НПМ после включения НВГР, c" type="float" />
+				<signal address="42134" icsId="1001" name="Включение ЭНВ после включения НПМ, c" type="float" />
+				<signal address="42136" icsId="1002" name="Отключение  НПМ после отключения ЭНВ, c" type="float" />
+				<signal address="42138" icsId="1003" name="Отключение НВГР после отключения НПМ, c" type="float" />
+				<signal address="42140" icsId="1004" name="Время работы НВГР после экстренного останова, c" type="float" />
+				<signal address="42142" icsId="1005" name="Время включения НПМ при периодической прокачке маслом, c" type="float" />
+				<signal address="42144" icsId="1006" name="Периодичность прокачки ДГ маслом, мин" type="float" />
+				<signal address="42146" icsId="1007" name="Время работы НПМ после экстреннго останова, c" type="float" />
+				<signal address="42148" icsId="1008" name="резерв" type="float" />
+				<signal address="42150" icsId="1009" name="резерв" type="float" />
+				<signal address="42152" icsId="1010" name="резерв" type="float" />
+				<signal address="42154" icsId="1011" name="резерв" type="float" />
+				<signal address="42156" icsId="1012" name="резерв" type="float" />
+				<signal address="42158" icsId="1013" name="резерв" type="float" />
+				<signal address="42160" icsId="1014" name="Превышение частоты вращения коленвала ДГ , об/мин" type="float" />
+				<signal address="42162" icsId="1015" name="резерв" type="float" />
+				<signal address="42164" icsId="1016" name="резерв" type="float" />
+				<signal address="42166" icsId="1017" name="Отключение насосов топливоподкачивающих (НТП1 и НТП2) (Отключение насосов заполнения РБТ), мм" type="float" />
+				<signal address="42168" icsId="1018" name="Включение насоса топливоподкачивающего 1 (НТП1) (Включение насоса 1 заполнения РБТ), мм" type="float" />
+				<signal address="42170" icsId="1019" name="Включение насоса топливоподкачивающего 2 (НТП2) (Включение насоса 2 заполнения РБТ), мм" type="float" />
+				<signal address="42172" icsId="1020" name="Уровень в РТБ ниже допустимого, мм" type="float" />
+				<signal address="42174" icsId="1021" name="Уровень в ПТБ выше допустимого , мм" type="float" />
+				<signal address="42176" icsId="1022" name="Уровень в ПТБ ниже допустимого, мм" type="float" />
+				<signal address="42178" icsId="1023" name="Низкое давление топлива на входе в дизель , МПа" type="float" />
+				<signal address="42180" icsId="1024" name="Загрязнение фильтра тонкой очистки топлива, МПа" type="float" />
+				<signal address="42182" icsId="1025" name="Загрязнение фильтра грубой очистки топлива, МПа" type="float" />
+				<signal address="42184" icsId="1026" name="Закрытие клапана долива топлива (КДТ), мм" type="float" />
+				<signal address="42186" icsId="1027" name="Открытие клапана долива топлива (КДТ), мм " type="float" />
+				<signal address="42188" icsId="1028" name="резерв" type="float" />
+				<signal address="42190" icsId="1029" name="резерв" type="float" />
+				<signal address="42192" icsId="1030" name="Уровень в РБМ выше допустимого, мм" type="float" />
+				<signal address="42194" icsId="1031" name="Уровень в РБМ ниже допустимого, мм" type="float" />
+				<signal address="42196" icsId="1032" name="Отключение насоса закачки масла (НЗМ), мм" type="float" />
+				<signal address="42198" icsId="1033" name="Включение насоса закачки масла (НЗМ), мм" type="float" />
+				<signal address="42200" icsId="1034" name="Уровень масла в картере ниже допустимого, мм " type="float" />
+				<signal address="42202" icsId="1035" name="Давление масла на входе в дизель ниже допустимого, МПа" type="float" />
+				<signal address="42204" icsId="1036" name="Давление масла на входе в дизель ниже допустимого (Критически низкое давление масла на входе в дизель), МПа" type="float" />
+				<signal address="42206" icsId="1037" name="Температура масла на входе в дизель выше допустимого (Высокая температура масла на входе в дизель), °C" type="float" />
+				<signal address="42208" icsId="1038" name="Температура масла на выходе из дизеля выше допустимого (Критически высокая температура масла на выходе из дизеля), °C" type="float" />
+				<signal address="42210" icsId="1039" name="резерв" type="float" />
+				<signal address="42212" icsId="1040" name="резерв" type="float" />
+				<signal address="42214" icsId="1041" name="Отключение Горячего резерва (Отключение системы горячего резерва), °C" type="float" />
+				<signal address="42216" icsId="1042" name="Включение Горячего резерва (Включение системы горячего резерва), °C" type="float" />
+				<signal address="42218" icsId="1043" name="резерв" type="float" />
+				<signal address="42220" icsId="1044" name="резерв" type="float" />
+				<signal address="42222" icsId="1045" name="Низкий уровень в баке водоподготовки (БВП), мм" type="float" />
+				<signal address="42224" icsId="1046" name="Отключение насосов подачи воды в систему (НПВ) (Отключение насоса подачи воды), мм" type="float" />
+				<signal address="42226" icsId="1047" name="Включение насосов подачи воды в систему (НПВ) (Включение насоса подачи воды), мм" type="float" />
+				<signal address="42228" icsId="1048" name="Уровень в РБВ ниже допустимого (Уровень воды в РБВ ниже допустимого), мм" type="float" />
+				<signal address="42230" icsId="1049" name="Блокировка Горячего резерва (Критически низкий уровень воды в РБВ), мм" type="float" />
+				<signal address="42232" icsId="1050" name="Высокая температура воды горячего контура на выходе (Высокая температура воды ГК на выходе из дизеля), °C" type="float" />
+				<signal address="42234" icsId="1051" name="Критически высокая температура воды горячего контура (Критически высокая температура воды ГК на выходе из дизеля), °C" type="float" />
+				<signal address="42236" icsId="1052" name="Отключение электронагревателя воды (ЭНВ) (Критически высокая температура в ЭНВ), °C" type="float" />
+				<signal address="42238" icsId="1053" name="Низкое давление воды холодного контура на входе в дизель (Низкое давление воды на входе в дизель ХК), МПа" type="float" />
+				<signal address="42240" icsId="1054" name="Низкое давление воды горячего контура на входе в дизель (Низкое давление воды на входе в дизель ГК), МПа" type="float" />
+				<signal address="42242" icsId="1055" name="резерв" type="float" />
+				<signal address="42244" icsId="1056" name="резерв" type="float" />
+				<signal address="42246" icsId="1057" name="Включение компрессора воздушного (КВ), МПа" type="float" />
+				<signal address="42248" icsId="1058" name="Отключение компрессора воздушного (КВ), МПа" type="float" />
+				<signal address="42250" icsId="1059" name="Низкое давление воздуха в пусковых баллонах (Давление в баллонах пускового воздуха ниже допустимого), МПа" type="float" />
+				<signal address="42252" icsId="1060" name="резерв" type="float" />
+				<signal address="42254" icsId="1061" name="резерв" type="float" />
+				<signal address="42256" icsId="1062" name="Температура выхлопных газов * выше допустимого (Температура выхлопных газов в цилиндрах выше допустимого), °C" type="float" />
+				<signal address="42258" icsId="1063" name="резерв" type="float" />
+				<signal address="42260" icsId="1064" name="резерв" type="float" />
+				<signal address="42262" icsId="1065" name="Температура обмотки статора выше допустимого, °C" type="float" />
+				<signal address="42264" icsId="1066" name="Критически высокая температура обмотки статора, °C" type="float" />
+				<signal address="42266" icsId="1067" name="Температура сердечника статора выше допустимого, °C" type="float" />
+				<signal address="42268" icsId="1068" name="Температура подшипников генератра выше допустимого, °C" type="float" />
+				<signal address="42270" icsId="1069" name="Критически высокая температура подшипников генератора, °C" type="float" />
+				<signal address="42272" icsId="1070" name="резерв" type="float" />
+				<signal address="42274" icsId="1071" name="резерв" type="float" />
+				<signal address="42276" icsId="1072" name="Ввод защиты по маслу, c" type="float" />
+				<signal address="42278" icsId="1073" name="Несостоявшийся пуск (Fвращ <180 об/мин), c" type="float" />
+				<signal address="42280" icsId="1074" name="Незавершенный пуск (нет сигнала 95%U, F), c" type="float" />
+				<signal address="42282" icsId="1075" name="Включение клапана приемистости, c" type="float" />
+				<signal address="42284" icsId="1076" name="Контроль включения/отключения ВГ, c" type="float" />
+				<signal address="42286" icsId="1077" name="Время расхолаживания ДГ, c" type="float" />
+				<signal address="42288" icsId="1078" name="Контроль времени останова, c" type="float" />
+				<signal address="42290" icsId="1079" name="Время работы НПМ после нормального останова, c" type="float" />
+				<signal address="42292" icsId="1080" name="Включение НПМ после включения НВГР, c" type="float" />
+				<signal address="42294" icsId="1081" name="Включение ЭНВ после включения НПМ, c" type="float" />
+				<signal address="42296" icsId="1082" name="Отключение  НПМ после отключения ЭНВ, c" type="float" />
+				<signal address="42298" icsId="1083" name="Отключение НВГР после отключения НПМ, c" type="float" />
+				<signal address="42300" icsId="1084" name="Время работы НВГР после экстренного останова, c" type="float" />
+				<signal address="42302" icsId="1085" name="Время включения НПМ при периодической прокачке маслом, c" type="float" />
+				<signal address="42304" icsId="1086" name="Периодичность прокачки ДГ маслом, мин" type="float" />
+				<signal address="42306" icsId="1087" name="Время работы НПМ после экстреннго останова, c" type="float" />
+				<signal address="42308" icsId="1088" name="резерв" type="float" />
+				<signal address="42310" icsId="1089" name="резерв" type="float" />
+				<signal address="42312" icsId="1090" name="резерв" type="float" />
+				<signal address="42314" icsId="1091" name="резерв" type="float" />
+				<signal address="42316" icsId="1092" name="резерв" type="float" />
+				<signal address="42318" icsId="1093" name="резерв" type="float" />
+				<signal address="42320" icsId="1094" name="Уровень в промежуточном баке топлива (ПТБ)" type="float" />
+				<signal address="42322" icsId="1095" name="Уровень в расходном баке топлива (рабочем) (РТБ)" type="float" />
+				<signal address="42324" icsId="1096" name="Уровень в расходном баке топлива (резервном) (РТБ)" type="float" />
+				<signal address="42326" icsId="1097" name="Давление топлива на входе в дизель" type="float" />
+				<signal address="42328" icsId="1098" name="Перепад давления на ФТОТ" type="float" />
+				<signal address="42330" icsId="1099" name="Перепад давления на ФГОТ" type="float" />
+				<signal address="42332" icsId="1100" name="Резерв" type="float" />
+				<signal address="42334" icsId="1101" name="Резерв" type="float" />
+				<signal address="42336" icsId="1102" name="Уровень в расходном баке масла (рабочем) (РБМ)" type="float" />
+				<signal address="42338" icsId="1103" name="Уровень в расходном баке масла (резервном) (РБМ)" type="float" />
+				<signal address="42340" icsId="1104" name="Уровень масла в картере" type="float" />
+				<signal address="42342" icsId="1105" name="Давление масла на входе в дизель 1" type="float" />
+				<signal address="42344" icsId="1106" name="Давление масла на входе в дизель 2" type="float" />
+				<signal address="42346" icsId="1107" name="Давление масла на входе в дизель 3" type="float" />
+				<signal address="42348" icsId="1108" name="Температура масла на входе в дизель" type="float" />
+				<signal address="42350" icsId="1109" name="Температура масла на выходе из дизеля" type="float" />
+				<signal address="42352" icsId="1110" name="Уровень воды в расширительном баке (РБВ)" type="float" />
+				<signal address="42354" icsId="1111" name="Давление воды на входе в дизель холодного контура" type="float" />
+				<signal address="42356" icsId="1112" name="Давление воды на входе в дизель горячего контура" type="float" />
+				<signal address="42358" icsId="1113" name="Температура воды горячего контура на выходе из дизеля" type="float" />
+				<signal address="42360" icsId="1114" name="Температура воды в ЭНВ" type="float" />
+				<signal address="42362" icsId="1115" name="Уровень воды в баке водоподготовки (БВП)" type="float" />
+				<signal address="42364" icsId="1116" name="Резерв" type="float" />
+				<signal address="42366" icsId="1117" name="Резерв" type="float" />
+				<signal address="42368" icsId="1118" name="Давление сжатого воздуха в баллонах" type="float" />
+				<signal address="42370" icsId="1119" name="Резерв" type="float" />
+				<signal address="42372" icsId="1120" name="Резерв" type="float" />
+				<signal address="42374" icsId="1121" name="Резерв" type="float" />
+				<signal address="42376" icsId="1122" name="Частота вращения коленвала дизеля (1 канал)" type="float" />
+				<signal address="42378" icsId="1123" name="Частота вращения коленвала дизеля (2 канал)" type="float" />
+				<signal address="42380" icsId="1124" name="Резерв" type="float" />
+				<signal address="42382" icsId="1125" name="Активная мощность" type="float" />
+				<signal address="42384" icsId="1126" name="Температура выхлопных газов на выходе цилиндра A1" type="float" />
+				<signal address="42386" icsId="1127" name="Температура выхлопных газов на выходе цилиндра A2" type="float" />
+				<signal address="42388" icsId="1128" name="Температура выхлопных газов на выходе цилиндра A3" type="float" />
+				<signal address="42390" icsId="1129" name="Температура выхлопных газов на выходе цилиндра A4" type="float" />
+				<signal address="42392" icsId="1130" name="Температура выхлопных газов на выходе цилиндра A5" type="float" />
+				<signal address="42394" icsId="1131" name="Температура выхлопных газов на выходе цилиндра A6" type="float" />
+				<signal address="42396" icsId="1132" name="Температура выхлопных газов на выходе цилиндра A7" type="float" />
+				<signal address="42398" icsId="1133" name="Температура выхлопных газов на выходе цилиндра A8" type="float" />
+				<signal address="42400" icsId="1134" name="Температура выхлопных газов на выходе цилиндра A9" type="float" />
+				<signal address="42402" icsId="1135" name="Температура выхлопных газов на выходе цилиндра A10" type="float" />
+				<signal address="42404" icsId="1136" name="Резерв" type="float" />
+				<signal address="42406" icsId="1137" name="Резерв" type="float" />
+				<signal address="42408" icsId="1138" name="Резерв" type="float" />
+				<signal address="42410" icsId="1139" name="Резерв" type="float" />
+				<signal address="42412" icsId="1140" name="Резерв" type="float" />
+				<signal address="42414" icsId="1141" name="Резерв" type="float" />
+				<signal address="42416" icsId="1142" name="Температура выхлопных газов на выходе цилиндра B1" type="float" />
+				<signal address="42418" icsId="1143" name="Температура выхлопных газов на выходе цилиндра B2" type="float" />
+				<signal address="42420" icsId="1144" name="Температура выхлопных газов на выходе цилиндра B3" type="float" />
+				<signal address="42422" icsId="1145" name="Температура выхлопных газов на выходе цилиндра B4" type="float" />
+				<signal address="42424" icsId="1146" name="Температура выхлопных газов на выходе цилиндра B5" type="float" />
+				<signal address="42426" icsId="1147" name="Температура выхлопных газов на выходе цилиндра B6" type="float" />
+				<signal address="42428" icsId="1148" name="Температура выхлопных газов на выходе цилиндра B7" type="float" />
+				<signal address="42430" icsId="1149" name="Температура выхлопных газов на выходе цилиндра B8" type="float" />
+				<signal address="42432" icsId="1150" name="Температура выхлопных газов на выходе цилиндра B9" type="float" />
+				<signal address="42434" icsId="1151" name="Температура выхлопных газов на выходе цилиндра B10" type="float" />
+				<signal address="42436" icsId="1152" name="Резерв" type="float" />
+				<signal address="42438" icsId="1153" name="Резерв" type="float" />
+				<signal address="42440" icsId="1154" name="Резерв" type="float" />
+				<signal address="42442" icsId="1155" name="Резерв" type="float" />
+				<signal address="42444" icsId="1156" name="Резерв" type="float" />
+				<signal address="42446" icsId="1157" name="Резерв" type="float" />
+				<signal address="42448" icsId="1158" name="Температура подшипника генератора 1" type="float" />
+				<signal address="42450" icsId="1159" name="Температура подшипника генератора 2" type="float" />
+				<signal address="42452" icsId="1160" name="Температура сердечника статора фаза A" type="float" />
+				<signal address="42454" icsId="1161" name="Температура сердечника статора фаза B" type="float" />
+				<signal address="42456" icsId="1162" name="Температура сердечника статора фаза C" type="float" />
+				<signal address="42458" icsId="1163" name="Температура обмотки статора фаза A" type="float" />
+				<signal address="42460" icsId="1164" name="Температура обмотки статора фаза B" type="float" />
+				<signal address="42462" icsId="1165" name="Температура обмотки статора фаза C" type="float" />
+				<signal address="42464" icsId="1166" name="Резерв" type="float" />
+				<signal address="42466" icsId="1167" name="Резерв" type="float" />
+				<signal address="42468" icsId="1168" name="Резерв" type="float" />
+				<signal address="42470" icsId="1169" name="Резерв" type="float" />
+				<signal address="42472" icsId="1170" name="Резерв" type="float" />
+				<signal address="42474" icsId="1171" name="Резерв" type="float" />
+				<signal address="42476" icsId="1172" name="Резерв" type="float" />
+				<signal address="42478" icsId="1173" name="Частота вращения ДГ по трем/двум датчикам" type="float" />
+				<signal address="42480" icsId="1174" name="Отклонение Т по цилиндрам ряда А" type="float" />
+				<signal address="42482" icsId="1175" name="Отклонение Т по цилиндрам ряда B" type="float" />
+				<signal address="42484" icsId="1176" name="Задание частоты вращения" type="float" />
+				<signal address="42490" icsId="1177" name="Уровень в промежуточном баке топлива (ПТБ)" type="float" />
+				<signal address="42492" icsId="1178" name="Уровень в расходном баке топлива (рабочем) (РТБ)" type="float" />
+				<signal address="42494" icsId="1179" name="Уровень в расходном баке топлива (резервном) (РТБ)" type="float" />
+				<signal address="42496" icsId="1180" name="Давление топлива на входе в дизель" type="float" />
+				<signal address="42498" icsId="1181" name="Перепад давления на ФТОТ" type="float" />
+				<signal address="42500" icsId="1182" name="Перепад давления на ФГОТ" type="float" />
+				<signal address="42502" icsId="1183" name="Резерв" type="float" />
+				<signal address="42504" icsId="1184" name="Резерв" type="float" />
+				<signal address="42506" icsId="1185" name="Уровень в расходном баке масла (рабочем) (РБМ)" type="float" />
+				<signal address="42508" icsId="1186" name="Уровень в расходном баке масла (резервном) (РБМ)" type="float" />
+				<signal address="42510" icsId="1187" name="Уровень масла в картере" type="float" />
+				<signal address="42512" icsId="1188" name="Давление масла на входе в дизель 1" type="float" />
+				<signal address="42514" icsId="1189" name="Давление масла на входе в дизель 2" type="float" />
+				<signal address="42516" icsId="1190" name="Давление масла на входе в дизель 3" type="float" />
+				<signal address="42518" icsId="1191" name="Температура масла на входе в дизель" type="float" />
+				<signal address="42520" icsId="1192" name="Температура масла на выходе из дизеля" type="float" />
+				<signal address="42522" icsId="1193" name="Уровень воды в расширительном баке (РБВ)" type="float" />
+				<signal address="42524" icsId="1194" name="Давление воды на входе в дизель холодного контура" type="float" />
+				<signal address="42526" icsId="1195" name="Давление воды на входе в дизель горячего контура" type="float" />
+				<signal address="42528" icsId="1196" name="Температура воды горячего контура на выходе из дизеля" type="float" />
+				<signal address="42530" icsId="1197" name="Температура воды в ЭНВ" type="float" />
+				<signal address="42532" icsId="1198" name="Уровень воды в баке водоподготовки (БВП)" type="float" />
+				<signal address="42534" icsId="1199" name="Резерв" type="float" />
+				<signal address="42536" icsId="1200" name="Резерв" type="float" />
+				<signal address="42538" icsId="1201" name="Давление сжатого воздуха в баллонах" type="float" />
+				<signal address="42540" icsId="1202" name="Резерв" type="float" />
+				<signal address="42542" icsId="1203" name="Резерв" type="float" />
+				<signal address="42544" icsId="1204" name="Резерв" type="float" />
+				<signal address="42546" icsId="1205" name="Частота вращения коленвала дизеля (1 канал)" type="float" />
+				<signal address="42548" icsId="1206" name="Частота вращения коленвала дизеля (2 канал)" type="float" />
+				<signal address="42550" icsId="1207" name="Резерв" type="float" />
+				<signal address="42552" icsId="1208" name="Активная мощность" type="float" />
+				<signal address="42554" icsId="1209" name="Температура выхлопных газов на выходе цилиндра A1" type="float" />
+				<signal address="42556" icsId="1210" name="Температура выхлопных газов на выходе цилиндра A2" type="float" />
+				<signal address="42558" icsId="1211" name="Температура выхлопных газов на выходе цилиндра A3" type="float" />
+				<signal address="42560" icsId="1212" name="Температура выхлопных газов на выходе цилиндра A4" type="float" />
+				<signal address="42562" icsId="1213" name="Температура выхлопных газов на выходе цилиндра A5" type="float" />
+				<signal address="42564" icsId="1214" name="Температура выхлопных газов на выходе цилиндра A6" type="float" />
+				<signal address="42566" icsId="1215" name="Температура выхлопных газов на выходе цилиндра A7" type="float" />
+				<signal address="42568" icsId="1216" name="Температура выхлопных газов на выходе цилиндра A8" type="float" />
+				<signal address="42570" icsId="1217" name="Температура выхлопных газов на выходе цилиндра A9" type="float" />
+				<signal address="42572" icsId="1218" name="Температура выхлопных газов на выходе цилиндра A10" type="float" />
+				<signal address="42574" icsId="1219" name="Резерв" type="float" />
+				<signal address="42576" icsId="1220" name="Резерв" type="float" />
+				<signal address="42578" icsId="1221" name="Резерв" type="float" />
+				<signal address="42580" icsId="1222" name="Резерв" type="float" />
+				<signal address="42582" icsId="1223" name="Резерв" type="float" />
+				<signal address="42584" icsId="1224" name="Резерв" type="float" />
+				<signal address="42586" icsId="1225" name="Температура выхлопных газов на выходе цилиндра B1" type="float" />
+				<signal address="42588" icsId="1226" name="Температура выхлопных газов на выходе цилиндра B2" type="float" />
+				<signal address="42590" icsId="1227" name="Температура выхлопных газов на выходе цилиндра B3" type="float" />
+				<signal address="42592" icsId="1228" name="Температура выхлопных газов на выходе цилиндра B4" type="float" />
+				<signal address="42594" icsId="1229" name="Температура выхлопных газов на выходе цилиндра B5" type="float" />
+				<signal address="42596" icsId="1230" name="Температура выхлопных газов на выходе цилиндра B6" type="float" />
+				<signal address="42598" icsId="1231" name="Температура выхлопных газов на выходе цилиндра B7" type="float" />
+				<signal address="42600" icsId="1232" name="Температура выхлопных газов на выходе цилиндра B8" type="float" />
+				<signal address="42602" icsId="1233" name="Температура выхлопных газов на выходе цилиндра B9" type="float" />
+				<signal address="42604" icsId="1234" name="Температура выхлопных газов на выходе цилиндра B10" type="float" />
+				<signal address="42606" icsId="1235" name="Резерв" type="float" />
+				<signal address="42608" icsId="1236" name="Резерв" type="float" />
+				<signal address="42610" icsId="1237" name="Резерв" type="float" />
+				<signal address="42612" icsId="1238" name="Резерв" type="float" />
+				<signal address="42614" icsId="1239" name="Резерв" type="float" />
+				<signal address="42616" icsId="1240" name="Резерв" type="float" />
+				<signal address="42618" icsId="1241" name="Температура подшипника генератора 1" type="float" />
+				<signal address="42620" icsId="1242" name="Температура подшипника генератора 2" type="float" />
+				<signal address="42622" icsId="1243" name="Температура сердечника статора фаза A" type="float" />
+				<signal address="42624" icsId="1244" name="Температура сердечника статора фаза B" type="float" />
+				<signal address="42626" icsId="1245" name="Температура сердечника статора фаза C" type="float" />
+				<signal address="42628" icsId="1246" name="Температура обмотки статора фаза A" type="float" />
+				<signal address="42630" icsId="1247" name="Температура обмотки статора фаза B" type="float" />
+				<signal address="42632" icsId="1248" name="Температура обмотки статора фаза C" type="float" />
+				<signal address="42634" icsId="1249" name="Резерв" type="float" />
+				<signal address="42636" icsId="1250" name="Резерв" type="float" />
+				<signal address="42638" icsId="1251" name="Резерв" type="float" />
+				<signal address="42640" icsId="1252" name="Резерв" type="float" />
+				<signal address="42642" icsId="1253" name="Резерв" type="float" />
+				<signal address="42644" icsId="1254" name="Резерв" type="float" />
+				<signal address="42646" icsId="1255" name="Резерв" type="float" />
+				<signal address="42648" icsId="1256" name="Резерв" type="float" />
+				<signal address="42650" icsId="1257" name="Уровень в промежуточном баке топлива (ПТБ)" type="float" />
+				<signal address="42652" icsId="1258" name="Уровень в расходном баке топлива (рабочем) (РТБ)" type="float" />
+				<signal address="42654" icsId="1259" name="Уровень в расходном баке топлива (резервном) (РТБ)" type="float" />
+				<signal address="42656" icsId="1260" name="Давление топлива на входе в дизель" type="float" />
+				<signal address="42658" icsId="1261" name="Перепад давления на ФТОТ" type="float" />
+				<signal address="42660" icsId="1262" name="Перепад давления на ФГОТ" type="float" />
+				<signal address="42662" icsId="1263" name="Резерв" type="float" />
+				<signal address="42664" icsId="1264" name="Резерв" type="float" />
+				<signal address="42666" icsId="1265" name="Уровень в расходном баке масла (рабочем) (РБМ)" type="float" />
+				<signal address="42668" icsId="1266" name="Уровень в расходном баке масла (резервном) (РБМ)" type="float" />
+				<signal address="42670" icsId="1267" name="Уровень масла в картере" type="float" />
+				<signal address="42672" icsId="1268" name="Давление масла на входе в дизель 1" type="float" />
+				<signal address="42674" icsId="1269" name="Давление масла на входе в дизель 2" type="float" />
+				<signal address="42676" icsId="1270" name="Давление масла на входе в дизель 3" type="float" />
+				<signal address="42678" icsId="1271" name="Температура масла на входе в дизель" type="float" />
+				<signal address="42680" icsId="1272" name="Температура масла на выходе из дизеля" type="float" />
+				<signal address="42682" icsId="1273" name="Уровень воды в расширительном баке (РБВ)" type="float" />
+				<signal address="42684" icsId="1274" name="Давление воды на входе в дизель холодного контура" type="float" />
+				<signal address="42686" icsId="1275" name="Давление воды на входе в дизель горячего контура" type="float" />
+				<signal address="42688" icsId="1276" name="Температура воды горячего контура на выходе из дизеля" type="float" />
+				<signal address="42690" icsId="1277" name="Температура воды в ЭНВ" type="float" />
+				<signal address="42692" icsId="1278" name="Уровень воды в баке водоподготовки (БВП)" type="float" />
+				<signal address="42694" icsId="1279" name="Резерв" type="float" />
+				<signal address="42696" icsId="1280" name="Резерв" type="float" />
+				<signal address="42698" icsId="1281" name="Давление сжатого воздуха в баллонах" type="float" />
+				<signal address="42700" icsId="1282" name="Резерв" type="float" />
+				<signal address="42702" icsId="1283" name="Резерв" type="float" />
+				<signal address="42704" icsId="1284" name="Резерв" type="float" />
+				<signal address="42706" icsId="1285" name="Частота вращения коленвала дизеля (1 канал)" type="float" />
+				<signal address="42708" icsId="1286" name="Частота вращения коленвала дизеля (2 канал)" type="float" />
+				<signal address="42710" icsId="1287" name="Резерв" type="float" />
+				<signal address="42712" icsId="1288" name="Активная мощность" type="float" />
+				<signal address="42714" icsId="1289" name="Температура выхлопных газов на выходе цилиндра A1" type="float" />
+				<signal address="42716" icsId="1290" name="Температура выхлопных газов на выходе цилиндра A2" type="float" />
+				<signal address="42718" icsId="1291" name="Температура выхлопных газов на выходе цилиндра A3" type="float" />
+				<signal address="42720" icsId="1292" name="Температура выхлопных газов на выходе цилиндра A4" type="float" />
+				<signal address="42722" icsId="1293" name="Температура выхлопных газов на выходе цилиндра A5" type="float" />
+				<signal address="42724" icsId="1294" name="Температура выхлопных газов на выходе цилиндра A6" type="float" />
+				<signal address="42726" icsId="1295" name="Температура выхлопных газов на выходе цилиндра A7" type="float" />
+				<signal address="42728" icsId="1296" name="Температура выхлопных газов на выходе цилиндра A8" type="float" />
+				<signal address="42730" icsId="1297" name="Температура выхлопных газов на выходе цилиндра A9" type="float" />
+				<signal address="42732" icsId="1298" name="Температура выхлопных газов на выходе цилиндра A10" type="float" />
+				<signal address="42734" icsId="1299" name="Резерв" type="float" />
+				<signal address="42736" icsId="1300" name="Резерв" type="float" />
+				<signal address="42738" icsId="1301" name="Резерв" type="float" />
+				<signal address="42740" icsId="1302" name="Резерв" type="float" />
+				<signal address="42742" icsId="1303" name="Резерв" type="float" />
+				<signal address="42744" icsId="1304" name="Резерв" type="float" />
+				<signal address="42746" icsId="1305" name="Температура выхлопных газов на выходе цилиндра B1" type="float" />
+				<signal address="42748" icsId="1306" name="Температура выхлопных газов на выходе цилиндра B2" type="float" />
+				<signal address="42750" icsId="1307" name="Температура выхлопных газов на выходе цилиндра B3" type="float" />
+				<signal address="42752" icsId="1308" name="Температура выхлопных газов на выходе цилиндра B4" type="float" />
+				<signal address="42754" icsId="1309" name="Температура выхлопных газов на выходе цилиндра B5" type="float" />
+				<signal address="42756" icsId="1310" name="Температура выхлопных газов на выходе цилиндра B6" type="float" />
+				<signal address="42758" icsId="1311" name="Температура выхлопных газов на выходе цилиндра B7" type="float" />
+				<signal address="42760" icsId="1312" name="Температура выхлопных газов на выходе цилиндра B8" type="float" />
+				<signal address="42762" icsId="1313" name="Температура выхлопных газов на выходе цилиндра B9" type="float" />
+				<signal address="42764" icsId="1314" name="Температура выхлопных газов на выходе цилиндра B10" type="float" />
+				<signal address="42766" icsId="1315" name="Резерв" type="float" />
+				<signal address="42768" icsId="1316" name="Резерв" type="float" />
+				<signal address="42770" icsId="1317" name="Резерв" type="float" />
+				<signal address="42772" icsId="1318" name="Резерв" type="float" />
+				<signal address="42774" icsId="1319" name="Резерв" type="float" />
+				<signal address="42776" icsId="1320" name="Резерв" type="float" />
+				<signal address="42778" icsId="1321" name="Температура подшипника генератора 1" type="float" />
+				<signal address="42780" icsId="1322" name="Температура подшипника генератора 2" type="float" />
+				<signal address="42782" icsId="1323" name="Температура сердечника статора фаза A" type="float" />
+				<signal address="42784" icsId="1324" name="Температура сердечника статора фаза B" type="float" />
+				<signal address="42786" icsId="1325" name="Температура сердечника статора фаза C" type="float" />
+				<signal address="42788" icsId="1326" name="Температура обмотки статора фаза A" type="float" />
+				<signal address="42790" icsId="1327" name="Температура обмотки статора фаза B" type="float" />
+				<signal address="42792" icsId="1328" name="Температура обмотки статора фаза C" type="float" />
+				<signal address="42794" icsId="1329" name="Резерв" type="float" />
+				<signal address="42796" icsId="1330" name="Резерв" type="float" />
+				<signal address="42798" icsId="1331" name="Резерв" type="float" />
+				<signal address="42800" icsId="1332" name="Резерв" type="float" />
+				<signal address="42802" icsId="1333" name="Резерв" type="float" />
+				<signal address="42804" icsId="1334" name="Резерв" type="float" />
+				<signal address="42806" icsId="1335" name="Резерв" type="float" />
+				<signal address="42808" icsId="1336" name="Резерв" type="float" />
+				<signal address="42810" icsId="1337" name="Уровень в промежуточном баке топлива (ПТБ)" type="float" />
+				<signal address="42812" icsId="1338" name="Уровень в расходном баке топлива (рабочем) (РТБ)" type="float" />
+				<signal address="42814" icsId="1339" name="Уровень в расходном баке топлива (резервном) (РТБ)" type="float" />
+				<signal address="42816" icsId="1340" name="Давление топлива на входе в дизель" type="float" />
+				<signal address="42818" icsId="1341" name="Перепад давления на ФТОТ" type="float" />
+				<signal address="42820" icsId="1342" name="Перепад давления на ФГОТ" type="float" />
+				<signal address="42822" icsId="1343" name="Резерв" type="float" />
+				<signal address="42824" icsId="1344" name="Резерв" type="float" />
+				<signal address="42826" icsId="1345" name="Уровень в расходном баке масла (рабочем) (РБМ)" type="float" />
+				<signal address="42828" icsId="1346" name="Уровень в расходном баке масла (резервном) (РБМ)" type="float" />
+				<signal address="42830" icsId="1347" name="Уровень масла в картере" type="float" />
+				<signal address="42832" icsId="1348" name="Давление масла на входе в дизель 1" type="float" />
+				<signal address="42834" icsId="1349" name="Давление масла на входе в дизель 2" type="float" />
+				<signal address="42836" icsId="1350" name="Давление масла на входе в дизель 3" type="float" />
+				<signal address="42838" icsId="1351" name="Температура масла на входе в дизель" type="float" />
+				<signal address="42840" icsId="1352" name="Температура масла на выходе из дизеля" type="float" />
+				<signal address="42842" icsId="1353" name="Уровень воды в расширительном баке (РБВ)" type="float" />
+				<signal address="42844" icsId="1354" name="Давление воды на входе в дизель холодного контура" type="float" />
+				<signal address="42846" icsId="1355" name="Давление воды на входе в дизель горячего контура" type="float" />
+				<signal address="42848" icsId="1356" name="Температура воды горячего контура на выходе из дизеля" type="float" />
+				<signal address="42850" icsId="1357" name="Температура воды в ЭНВ" type="float" />
+				<signal address="42852" icsId="1358" name="Уровень воды в баке водоподготовки (БВП)" type="float" />
+				<signal address="42854" icsId="1359" name="Резерв" type="float" />
+				<signal address="42856" icsId="1360" name="Резерв" type="float" />
+				<signal address="42858" icsId="1361" name="Давление сжатого воздуха в баллонах" type="float" />
+				<signal address="42860" icsId="1362" name="Резерв" type="float" />
+				<signal address="42862" icsId="1363" name="Резерв" type="float" />
+				<signal address="42864" icsId="1364" name="Резерв" type="float" />
+				<signal address="42866" icsId="1365" name="Частота вращения коленвала дизеля (1 канал)" type="float" />
+				<signal address="42868" icsId="1366" name="Частота вращения коленвала дизеля (2 канал)" type="float" />
+				<signal address="42870" icsId="1367" name="Резерв" type="float" />
+				<signal address="42872" icsId="1368" name="Активная мощность" type="float" />
+				<signal address="42874" icsId="1369" name="Температура выхлопных газов на выходе цилиндра A1" type="float" />
+				<signal address="42876" icsId="1370" name="Температура выхлопных газов на выходе цилиндра A2" type="float" />
+				<signal address="42878" icsId="1371" name="Температура выхлопных газов на выходе цилиндра A3" type="float" />
+				<signal address="42880" icsId="1372" name="Температура выхлопных газов на выходе цилиндра A4" type="float" />
+				<signal address="42882" icsId="1373" name="Температура выхлопных газов на выходе цилиндра A5" type="float" />
+				<signal address="42884" icsId="1374" name="Температура выхлопных газов на выходе цилиндра A6" type="float" />
+				<signal address="42886" icsId="1375" name="Температура выхлопных газов на выходе цилиндра A7" type="float" />
+				<signal address="42888" icsId="1376" name="Температура выхлопных газов на выходе цилиндра A8" type="float" />
+				<signal address="42890" icsId="1377" name="Температура выхлопных газов на выходе цилиндра A9" type="float" />
+				<signal address="42892" icsId="1378" name="Температура выхлопных газов на выходе цилиндра A10" type="float" />
+				<signal address="42894" icsId="1379" name="Резерв" type="float" />
+				<signal address="42896" icsId="1380" name="Резерв" type="float" />
+				<signal address="42898" icsId="1381" name="Резерв" type="float" />
+				<signal address="42900" icsId="1382" name="Резерв" type="float" />
+				<signal address="42902" icsId="1383" name="Резерв" type="float" />
+				<signal address="42904" icsId="1384" name="Резерв" type="float" />
+				<signal address="42906" icsId="1385" name="Температура выхлопных газов на выходе цилиндра B1" type="float" />
+				<signal address="42908" icsId="1386" name="Температура выхлопных газов на выходе цилиндра B2" type="float" />
+				<signal address="42910" icsId="1387" name="Температура выхлопных газов на выходе цилиндра B3" type="float" />
+				<signal address="42912" icsId="1388" name="Температура выхлопных газов на выходе цилиндра B4" type="float" />
+				<signal address="42914" icsId="1389" name="Температура выхлопных газов на выходе цилиндра B5" type="float" />
+				<signal address="42916" icsId="1390" name="Температура выхлопных газов на выходе цилиндра B6" type="float" />
+				<signal address="42918" icsId="1391" name="Температура выхлопных газов на выходе цилиндра B7" type="float" />
+				<signal address="42920" icsId="1392" name="Температура выхлопных газов на выходе цилиндра B8" type="float" />
+				<signal address="42922" icsId="1393" name="Температура выхлопных газов на выходе цилиндра B9" type="float" />
+				<signal address="42924" icsId="1394" name="Температура выхлопных газов на выходе цилиндра B10" type="float" />
+				<signal address="42926" icsId="1395" name="Резерв" type="float" />
+				<signal address="42928" icsId="1396" name="Резерв" type="float" />
+				<signal address="42930" icsId="1397" name="Резерв" type="float" />
+				<signal address="42932" icsId="1398" name="Резерв" type="float" />
+				<signal address="42934" icsId="1399" name="Резерв" type="float" />
+				<signal address="42936" icsId="1400" name="Резерв" type="float" />
+				<signal address="42938" icsId="1401" name="Температура подшипника генератора 1" type="float" />
+				<signal address="42940" icsId="1402" name="Температура подшипника генератора 2" type="float" />
+				<signal address="42942" icsId="1403" name="Температура сердечника статора фаза A" type="float" />
+				<signal address="42944" icsId="1404" name="Температура сердечника статора фаза B" type="float" />
+				<signal address="42946" icsId="1405" name="Температура сердечника статора фаза C" type="float" />
+				<signal address="42948" icsId="1406" name="Температура обмотки статора фаза A" type="float" />
+				<signal address="42950" icsId="1407" name="Температура обмотки статора фаза B" type="float" />
+				<signal address="42952" icsId="1408" name="Температура обмотки статора фаза C" type="float" />
+				<signal address="42954" icsId="1409" name="Резерв" type="float" />
+				<signal address="42956" icsId="1410" name="Резерв" type="float" />
+				<signal address="42958" icsId="1411" name="Резерв" type="float" />
+				<signal address="42960" icsId="1412" name="Резерв" type="float" />
+				<signal address="42962" icsId="1413" name="Резерв" type="float" />
+				<signal address="42964" icsId="1414" name="Резерв" type="float" />
+				<signal address="42966" icsId="1415" name="Резерв" type="float" />
+				<signal address="42968" icsId="1416" name="Резерв" type="float" />
+				<signal address="42970" icsId="1417" name="Уровень в промежуточном баке топлива (ПТБ)" type="float" />
+				<signal address="42972" icsId="1418" name="Уровень в расходном баке топлива (рабочем) (РТБ)" type="float" />
+				<signal address="42974" icsId="1419" name="Уровень в расходном баке топлива (резервном) (РТБ)" type="float" />
+				<signal address="42976" icsId="1420" name="Давление топлива на входе в дизель" type="float" />
+				<signal address="42978" icsId="1421" name="Перепад давления на ФТОТ" type="float" />
+				<signal address="42980" icsId="1422" name="Перепад давления на ФГОТ" type="float" />
+				<signal address="42982" icsId="1423" name="Резерв" type="float" />
+				<signal address="42984" icsId="1424" name="Резерв" type="float" />
+				<signal address="42986" icsId="1425" name="Уровень в расходном баке масла (рабочем) (РБМ)" type="float" />
+				<signal address="42988" icsId="1426" name="Уровень в расходном баке масла (резервном) (РБМ)" type="float" />
+				<signal address="42990" icsId="1427" name="Уровень масла в картере" type="float" />
+				<signal address="42992" icsId="1428" name="Давление масла на входе в дизель 1" type="float" />
+				<signal address="42994" icsId="1429" name="Давление масла на входе в дизель 2" type="float" />
+				<signal address="42996" icsId="1430" name="Давление масла на входе в дизель 3" type="float" />
+				<signal address="42998" icsId="1431" name="Температура масла на входе в дизель" type="float" />
+				<signal address="43000" icsId="1432" name="Температура масла на выходе из дизеля" type="float" />
+				<signal address="43002" icsId="1433" name="Уровень воды в расширительном баке (РБВ)" type="float" />
+				<signal address="43004" icsId="1434" name="Давление воды на входе в дизель холодного контура" type="float" />
+				<signal address="43006" icsId="1435" name="Давление воды на входе в дизель горячего контура" type="float" />
+				<signal address="43008" icsId="1436" name="Температура воды горячего контура на выходе из дизеля" type="float" />
+				<signal address="43010" icsId="1437" name="Температура воды в ЭНВ" type="float" />
+				<signal address="43012" icsId="1438" name="Уровень воды в баке водоподготовки (БВП)" type="float" />
+				<signal address="43014" icsId="1439" name="Резерв" type="float" />
+				<signal address="43016" icsId="1440" name="Резерв" type="float" />
+				<signal address="43018" icsId="1441" name="Давление сжатого воздуха в баллонах" type="float" />
+				<signal address="43020" icsId="1442" name="Резерв" type="float" />
+				<signal address="43022" icsId="1443" name="Резерв" type="float" />
+				<signal address="43024" icsId="1444" name="Резерв" type="float" />
+				<signal address="43026" icsId="1445" name="Частота вращения коленвала дизеля (1 канал)" type="float" />
+				<signal address="43028" icsId="1446" name="Частота вращения коленвала дизеля (2 канал)" type="float" />
+				<signal address="43030" icsId="1447" name="Резерв" type="float" />
+				<signal address="43032" icsId="1448" name="Активная мощность" type="float" />
+				<signal address="43034" icsId="1449" name="Температура выхлопных газов на выходе цилиндра A1" type="float" />
+				<signal address="43036" icsId="1450" name="Температура выхлопных газов на выходе цилиндра A2" type="float" />
+				<signal address="43038" icsId="1451" name="Температура выхлопных газов на выходе цилиндра A3" type="float" />
+				<signal address="43040" icsId="1452" name="Температура выхлопных газов на выходе цилиндра A4" type="float" />
+				<signal address="43042" icsId="1453" name="Температура выхлопных газов на выходе цилиндра A5" type="float" />
+				<signal address="43044" icsId="1454" name="Температура выхлопных газов на выходе цилиндра A6" type="float" />
+				<signal address="43046" icsId="1455" name="Температура выхлопных газов на выходе цилиндра A7" type="float" />
+				<signal address="43048" icsId="1456" name="Температура выхлопных газов на выходе цилиндра A8" type="float" />
+				<signal address="43050" icsId="1457" name="Температура выхлопных газов на выходе цилиндра A9" type="float" />
+				<signal address="43052" icsId="1458" name="Температура выхлопных газов на выходе цилиндра A10" type="float" />
+				<signal address="43054" icsId="1459" name="Резерв" type="float" />
+				<signal address="43056" icsId="1460" name="Резерв" type="float" />
+				<signal address="43058" icsId="1461" name="Резерв" type="float" />
+				<signal address="43060" icsId="1462" name="Резерв" type="float" />
+				<signal address="43062" icsId="1463" name="Резерв" type="float" />
+				<signal address="43064" icsId="1464" name="Резерв" type="float" />
+				<signal address="43066" icsId="1465" name="Температура выхлопных газов на выходе цилиндра B1" type="float" />
+				<signal address="43068" icsId="1466" name="Температура выхлопных газов на выходе цилиндра B2" type="float" />
+				<signal address="43070" icsId="1467" name="Температура выхлопных газов на выходе цилиндра B3" type="float" />
+				<signal address="43072" icsId="1468" name="Температура выхлопных газов на выходе цилиндра B4" type="float" />
+				<signal address="43074" icsId="1469" name="Температура выхлопных газов на выходе цилиндра B5" type="float" />
+				<signal address="43076" icsId="1470" name="Температура выхлопных газов на выходе цилиндра B6" type="float" />
+				<signal address="43078" icsId="1471" name="Температура выхлопных газов на выходе цилиндра B7" type="float" />
+				<signal address="43080" icsId="1472" name="Температура выхлопных газов на выходе цилиндра B8" type="float" />
+				<signal address="43082" icsId="1473" name="Температура выхлопных газов на выходе цилиндра B9" type="float" />
+				<signal address="43084" icsId="1474" name="Температура выхлопных газов на выходе цилиндра B10" type="float" />
+				<signal address="43086" icsId="1475" name="Резерв" type="float" />
+				<signal address="43088" icsId="1476" name="Резерв" type="float" />
+				<signal address="43090" icsId="1477" name="Резерв" type="float" />
+				<signal address="43092" icsId="1478" name="Резерв" type="float" />
+				<signal address="43094" icsId="1479" name="Резерв" type="float" />
+				<signal address="43096" icsId="1480" name="Резерв" type="float" />
+				<signal address="43098" icsId="1481" name="Температура подшипника генератора 1" type="float" />
+				<signal address="43100" icsId="1482" name="Температура подшипника генератора 2" type="float" />
+				<signal address="43102" icsId="1483" name="Температура сердечника статора фаза A" type="float" />
+				<signal address="43104" icsId="1484" name="Температура сердечника статора фаза B" type="float" />
+				<signal address="43106" icsId="1485" name="Температура сердечника статора фаза C" type="float" />
+				<signal address="43108" icsId="1486" name="Температура обмотки статора фаза A" type="float" />
+				<signal address="43110" icsId="1487" name="Температура обмотки статора фаза B" type="float" />
+				<signal address="43112" icsId="1488" name="Температура обмотки статора фаза C" type="float" />
+				<signal address="43114" icsId="1489" name="Резерв" type="float" />
+				<signal address="43116" icsId="1490" name="Резерв" type="float" />
+				<signal address="43118" icsId="1491" name="Резерв" type="float" />
+				<signal address="43120" icsId="1492" name="Резерв" type="float" />
+				<signal address="43122" icsId="1493" name="Резерв" type="float" />
+				<signal address="43124" icsId="1494" name="Резерв" type="float" />
+				<signal address="43126" icsId="1495" name="Резерв" type="float" />
+				<signal address="43128" icsId="1496" name="Резерв" type="float" />
+				<signal address="32106.0" icsId="1497" name="Включить подрежим Метрология" type="bit" />
+				<signal address="32106.1" icsId="1498" name="Отключить подрежим Метрология" type="bit" />
+				<signal address="32106.2" icsId="1499" name="Сброс количества пусков ДГ" type="bit" />
+				<signal address="32106.3" icsId="1500" name="Cброс времени общей наработки ДГ" type="bit" />
+				<signal address="32106.4" icsId="1501" name="Cброс времени работы под нагрузкой" type="bit" />
+				<signal address="32106.5" icsId="1502" name="Cброс времени работы НТП1" type="bit" />
+				<signal address="32106.6" icsId="1503" name="Cброс времени работы НТП2" type="bit" />
+				<signal address="32106.7" icsId="1504" name="Cброс времени работы НОС" type="bit" />
+				<signal address="32106.8" icsId="1505" name="Cброс времени работы НЗМ" type="bit" />
+				<signal address="32106.9" icsId="1506" name="Cброс времени работы НПМ" type="bit" />
+				<signal address="32106.10" icsId="1507" name="Cброс времени работы НВГР" type="bit" />
+				<signal address="32106.11" icsId="1508" name="Cброс времени работы НПВ" type="bit" />
+				<signal address="32106.12" icsId="1509" name="Cброс времени работы ЭНВ" type="bit" />
+				<signal address="32106.13" icsId="1510" name="Сброс количества пусков компрессора" type="bit" />
+				<signal address="32106.14" icsId="1511" name="Cброс времени работы компрессора" type="bit" />
+				<signal address="32108.0" icsId="1512" name="Счетчик от ПУ для диагностики связи" type="int32" />
+				<signal address="32110.0" icsId="1513" name="Счетчик подтверждения диапазона" type="int32" />
+				<signal address="32112.0" icsId="1514" name="Счетчик подтверждения уставок" type="int32" />

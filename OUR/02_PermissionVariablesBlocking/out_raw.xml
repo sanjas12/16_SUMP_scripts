@@ -1,0 +1,748 @@
+<?xml version="1.0" ?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 wp14">
+  <w:body>
+    <w:p w:rsidR="00AF7CAF" w:rsidRPr="001F06B5" w:rsidRDefault="00AF7CAF" w:rsidP="008B2E76">
+      <w:bookmarkStart w:id="0" w:name="_Toc13642525"/>
+      <w:bookmarkStart w:id="1" w:name="_Toc353285217"/>
+      <w:r>
+        <w:t>Условия</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001F06B5">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:t>защитных мер,</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001F06B5">
+        <w:t xml:space="preserve"> формируемых в </w:t>
+      </w:r>
+      <w:bookmarkEnd w:id="1"/>
+      <w:r>
+        <w:t>шкафах управления</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00AF7CAF" w:rsidRDefault="00AF7CAF" w:rsidP="00AF7CAF">
+      <w:pPr>
+        <w:pStyle w:val="2"/>
+        <w:ind w:left="-142" w:firstLine="993"/>
+        <w:rPr>
+          <w:lang w:val="ru-RU"/>
+        </w:rPr>
+      </w:pPr>
+      <w:bookmarkStart w:id="2" w:name="_Toc327016890"/>
+      <w:bookmarkStart w:id="3" w:name="_Toc366142314"/>
+      <w:bookmarkStart w:id="4" w:name="_Toc13642526"/>
+      <w:r>
+        <w:t xml:space="preserve">Условия формирования общих защитных мер  </w:t>
+      </w:r>
+      <w:r w:rsidRPr="001F06B5">
+        <w:t xml:space="preserve">всех механизмов </w:t>
+      </w:r>
+      <w:bookmarkEnd w:id="2"/>
+      <w:bookmarkEnd w:id="3"/>
+      <w:r w:rsidRPr="001F06B5">
+        <w:t>крана</w:t>
+      </w:r>
+      <w:bookmarkEnd w:id="4"/>
+    </w:p>
+    <w:p w:rsidR="00AF7CAF" w:rsidRPr="000804F4" w:rsidRDefault="00AF7CAF" w:rsidP="00AF7CAF">
+      <w:pPr>
+        <w:pStyle w:val="3"/>
+        <w:ind w:left="0" w:firstLine="851"/>
+      </w:pPr>
+      <w:bookmarkStart w:id="5" w:name="_Toc13642527"/>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="ru-RU"/>
+        </w:rPr>
+        <w:t>Предусматривающие отключение питания электродвигателей всех механизмов крана</w:t>
+      </w:r>
+      <w:bookmarkEnd w:id="5"/>
+    </w:p>
+    <w:p w:rsidR="00AF7CAF" w:rsidRPr="00AF7CAF" w:rsidRDefault="00AF7CAF" w:rsidP="00CA6725">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="x-none"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="001805BF" w:rsidRDefault="001805BF" w:rsidP="00CA6725">
+      <w:r w:rsidRPr="00CA6725">
+        <w:t>Условия защитных мер, формируемых в шкафах управления</w:t>
+      </w:r>
+      <w:bookmarkEnd w:id="0"/>
+    </w:p>
+    <w:p w:rsidR="00C80CC8" w:rsidRPr="001F06B5" w:rsidRDefault="00C80CC8" w:rsidP="00C80CC8">
+      <w:r w:rsidRPr="001F06B5">
+        <w:t>Таблица 1.</w:t>
+      </w:r>
+      <w:r>
+        <w:t>2</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="9780" w:type="dxa"/>
+        <w:tblInd w:w="-34" w:type="dxa"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblLayout w:type="fixed"/>
+        <w:tblLook w:val="01E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="1" w:noHBand="0" w:noVBand="0"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1090"/>
+        <w:gridCol w:w="44"/>
+        <w:gridCol w:w="3894"/>
+        <w:gridCol w:w="4752"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00C80CC8" w:rsidRPr="001F06B5" w:rsidTr="00CF5612">
+        <w:trPr>
+          <w:trHeight w:val="1270"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1090" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="001F06B5" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="336" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="001F06B5">
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t>Номер блок</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t>ировки</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3938" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="001F06B5" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="336" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="001F06B5">
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t xml:space="preserve"> Наименование параметров</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="4752" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="001F06B5" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="336" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="001F06B5">
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t>Условия формирования блок</w:t>
+            </w:r>
+            <w:r w:rsidRPr="001F06B5">
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t>и</w:t>
+            </w:r>
+            <w:r w:rsidRPr="001F06B5">
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t>ровки</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00C80CC8" w:rsidRPr="001F06B5" w:rsidTr="00CF5612">
+        <w:trPr>
+          <w:trHeight w:val="146"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9780" w:type="dxa"/>
+            <w:gridSpan w:val="4"/>
+          </w:tcPr>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="001F06B5" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="336" w:lineRule="auto"/>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t>2</w:t>
+            </w:r>
+            <w:r w:rsidRPr="001F06B5">
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t>.1 Общее для всех механизмов</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00C80CC8" w:rsidRPr="001F06B5" w:rsidTr="00CF5612">
+        <w:trPr>
+          <w:trHeight w:val="146"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9780" w:type="dxa"/>
+            <w:gridSpan w:val="4"/>
+          </w:tcPr>
+          <w:p w:rsidR="00C80CC8" w:rsidRDefault="00C80CC8" w:rsidP="003442A5">
+            <w:pPr>
+              <w:spacing w:line="336" w:lineRule="auto"/>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t xml:space="preserve">2.1.1 Предусматривающие отключение </w:t>
+            </w:r>
+            <w:r w:rsidR="003442A5">
+              <w:rPr>
+                <w:b/>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>dfsdfsd</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t xml:space="preserve"> электродвигателей всех механизмов крана</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00C80CC8" w:rsidRPr="001F06B5" w:rsidTr="00CF5612">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1134" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+          </w:tcPr>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="001F06B5" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="8"/>
+              </w:numPr>
+              <w:spacing w:line="336" w:lineRule="auto"/>
+              <w:jc w:val="both"/>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="8646" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+          </w:tcPr>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="003442A5" w:rsidRDefault="00C80CC8" w:rsidP="003442A5">
+            <w:pPr>
+              <w:spacing w:line="336" w:lineRule="auto"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">2.1.1.1а) Отключение </w:t>
+            </w:r>
+            <w:r w:rsidR="003442A5">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>dfsdfds</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00C80CC8" w:rsidRPr="001F2DC4" w:rsidTr="00CF5612">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5028" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+          </w:tcPr>
+          <w:p w:rsidR="00C80CC8" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:r w:rsidRPr="001F06B5">
+              <w:t>P0141 – команда на движение механизма пер</w:t>
+            </w:r>
+            <w:r w:rsidRPr="001F06B5">
+              <w:t>е</w:t>
+            </w:r>
+            <w:r w:rsidRPr="001F06B5">
+              <w:t>движения моста;</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t xml:space="preserve">P0142 – </w:t>
+            </w:r>
+            <w:r>
+              <w:t>р</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>азрешение на движение моста;</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="009C1CA3" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>Р0152</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:vertAlign w:val="subscript"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t xml:space="preserve">– </w:t>
+            </w:r>
+            <w:r>
+              <w:t>в</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>ремя, прошедшее с момента форм</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>и</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>рования команды на экстренный останов мо</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>с</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>та;</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="009C1CA3" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:tabs>
+                <w:tab w:val="left" w:pos="354"/>
+                <w:tab w:val="left" w:pos="519"/>
+              </w:tabs>
+              <w:ind w:left="33"/>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t xml:space="preserve">PV01T203 – </w:t>
+            </w:r>
+            <w:r>
+              <w:t>в</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>ремя экстренного торможения моста с максимальной скор</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>о</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>сти;</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="005C7DFB" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:r w:rsidRPr="00071ED7">
+              <w:t>P0101 – текущая координата моста;</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="009C1CA3" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>P0103 – Координата последнего останова моста;</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="001F06B5" w:rsidRDefault="00C80CC8" w:rsidP="00E653EE">
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>PV01C</w:t>
+            </w:r>
+            <w:r>
+              <w:t>005</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t xml:space="preserve"> – Значение недопустимого измен</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>е</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t xml:space="preserve">ния координаты моста для формирования блокировки </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="4752" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="009C1CA3" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:jc w:val="both"/>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>Отключение питания электродвиг</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>а</w:t>
+            </w:r>
+            <w:r w:rsidR="00E653EE">
+              <w:t>теле</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>если выполняются следующие усл</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>о</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>вия:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="00153B7D" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00153B7D">
+              <w:t>(</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="00153B7D" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:ind w:left="244"/>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>notP</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00153B7D">
+              <w:t>0141</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="00153B7D" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:ind w:left="249"/>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>and</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="00153B7D" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:ind w:left="249"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00153B7D">
+              <w:t>(</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="00153B7D" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:ind w:left="533"/>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>notP</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00153B7D">
+              <w:t>0142</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="00153B7D" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:ind w:left="533"/>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>or</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="00153B7D" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:ind w:left="533"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00153B7D">
+              <w:t>(</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>Р</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00153B7D">
+              <w:t>0152</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00153B7D">
+              <w:rPr>
+                <w:vertAlign w:val="subscript"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00153B7D">
+              <w:t xml:space="preserve">&gt; </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>PV</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00153B7D">
+              <w:t>01</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>T</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00153B7D">
+              <w:t>203)</w:t>
+            </w:r>
+            <w:bookmarkStart w:id="6" w:name="_GoBack"/>
+            <w:bookmarkEnd w:id="6"/>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="009C1CA3" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:ind w:left="249"/>
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>)</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="009C1CA3" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>)</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="009C1CA3" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>(</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="009C1CA3" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:ind w:left="316"/>
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>(P0101 &lt;= P0103 – PV01C</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00C80CC8">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>005</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>)</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="009C1CA3" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:ind w:left="316"/>
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>or</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="009C1CA3" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="exact"/>
+              <w:ind w:left="316"/>
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>(P0101 &gt;= P0103 + PV01C</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00C80CC8">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>005</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>)</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00C80CC8" w:rsidRPr="001F2DC4" w:rsidRDefault="00C80CC8" w:rsidP="00CF5612">
+            <w:pPr>
+              <w:spacing w:line="336" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r w:rsidRPr="009C1CA3">
+              <w:t>)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00761E4A" w:rsidRPr="001F2DC4" w:rsidTr="00CF5612">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5028" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+          </w:tcPr>
+          <w:p w:rsidR="00761E4A" w:rsidRPr="001F06B5" w:rsidRDefault="00761E4A" w:rsidP="00CF5612"/>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="4752" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w:rsidR="00761E4A" w:rsidRDefault="00761E4A" w:rsidP="00761E4A">
+            <w:pPr>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>232323232qewedswdasfd21</w:t>
+            </w:r>
+            <w:r w:rsidR="00C42484">
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>kj</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00761E4A" w:rsidRPr="009C1CA3" w:rsidRDefault="00C42484" w:rsidP="00E653EE">
+            <w:pPr>
+              <w:jc w:val="both"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t>K;’l;kl;</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w:rsidR="009D6E94" w:rsidRPr="001805BF" w:rsidRDefault="009D6E94" w:rsidP="001805BF"/>
+    <w:sectPr w:rsidR="009D6E94" w:rsidRPr="001805BF" w:rsidSect="00A867F3">
+      <w:headerReference w:type="even" r:id="rId8"/>
+      <w:headerReference w:type="first" r:id="rId9"/>
+      <w:footerReference w:type="first" r:id="rId10"/>
+      <w:pgSz w:w="11907" w:h="16840" w:code="9"/>
+      <w:pgMar w:top="284" w:right="709" w:bottom="1797" w:left="1440" w:header="720" w:footer="987" w:gutter="0"/>
+      <w:pgNumType w:start="2"/>
+      <w:cols w:space="720"/>
+      <w:titlePg/>
+    </w:sectPr>
+  </w:body>
+</w:document>
