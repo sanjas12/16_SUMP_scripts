@@ -1,0 +1,4 @@
+chardet>=5.1.0
+python-docx>=1.1.2
+lxml>=5.3.1
+typing-extensions>=4.12.2
